@@ -1,4 +1,4 @@
-"""
+""" 
 PostgreSQL persistence only: rerun-safe UPSERT of already-curated rows.
 No source cleaning or business calculations happen here.
 
