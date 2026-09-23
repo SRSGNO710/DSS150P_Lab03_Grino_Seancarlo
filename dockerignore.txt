@@ -1,0 +1,16 @@
+# Keep secrets and generated data out of the image. The container receives
+# configuration through env_file/environment in docker-compose.yml instead.
+.env
+.git
+.venv
+venv
+__pycache__
+.pytest_cache
+logs
+airflow_logs
+data/raw
+data/staging
+data/curated
+data/quarantine
+data/benchmarks
+data/partitioned

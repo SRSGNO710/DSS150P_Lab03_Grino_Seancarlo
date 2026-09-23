@@ -1,0 +1,50 @@
+# Goal 1: PostgreSQL + the containerized pipeline.
+#   docker compose build pipeline
+#   docker compose up -d postgres
+#   docker compose run --rm pipeline python -m src.cli validate-env
+name: dss150p
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: dss150p-postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:?set POSTGRES_USER in .env}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+      # Bootstrap into the default "postgres" database. sql/init/00_create_databases.sql
+      # then creates dss150p and airflow. (If POSTGRES_DB were dss150p, the image would
+      # create it first and CREATE DATABASE dss150p in the init script would fail.)
+      POSTGRES_DB: postgres
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./sql/init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      # -h 127.0.0.1: only healthy once the real server listens on TCP, i.e. after
+      # the init scripts have finished (the init-phase server is socket-only).
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U $${POSTGRES_USER} -d dss150p"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+    restart: unless-stopped
+
+  pipeline:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: dss150p-pipeline:latest
+    env_file: .env
+    environment:
+      # Same .env contract as local runs; only the host changes inside Docker.
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: "5432"
+    volumes:
+      # Mount the same source tree + data so container and local runs share one codebase.
+      - ./:/app
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  pgdata:

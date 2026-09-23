@@ -1,0 +1,61 @@
+Goal 2 evidence - layer counts for pipeline_run_id manual__2026-09-22T19:10:00+00:00
+========================================================================
+
+RAW (run-specific snapshot: raw/run_id=manual__2026-09-22T19_10_00_00_00)
+  customers.csv  physical records   3003   sha256 cd7617476ba9c295...
+  products.json  physical records    601   sha256 18ba24bddd2a6f9e...
+  orders.csv     physical records  50005   sha256 f2de6cbd4ce9d383...
+
+STAGING
+  customers  raw   3003 -> dedup removed 3 -> staged   3000, quarantined 0 ; missing_email flagged (kept) = 4
+  products   raw    601 -> dedup removed 1 -> staged    599, quarantined 1 {'negative_unit_price': 1}
+  orders     raw  50005 -> dedup removed 5 -> staged  49998, quarantined 2 {'invalid_quantity': 1, 'invalid_status': 1}
+
+CURATED
+  staged orders 49998 -> curated 49897, quarantined 101 {'product_quarantined_in_staging': 99, 'orphan_customer_id': 1, 'orphan_product_id': 1}
+  reconciliation: 49897 + 101 = 49998 == 49998
+  net_amount total: 9,273,680,736.60
+
+QUARANTINE total rows: 104
+
+data/quarantine/staging_products.csv (1 rows)
+product_id unit_price   quarantine_reason quarantine_layer
+     P0078     -199.0 negative_unit_price          staging
+
+data/quarantine/staging_orders.csv (2 rows)
+order_id product_id customer_id quantity unit_price  status quarantine_reason quarantine_layer
+O0000112      P0344      C02709        0    2785.93  PACKED  invalid_quantity          staging
+O0004445      P0394      C00645        4     5199.2 UNKNOWN    invalid_status          staging
+
+data/quarantine/curated_orders.csv (101 rows)
+order_id product_id customer_id quantity unit_price    status              quarantine_reason quarantine_layer
+O0000204      P0078      C00912        7     669.78 DELIVERED product_quarantined_in_staging          curated
+O0000444      P0078      C02032        7     816.09   PENDING product_quarantined_in_staging          curated
+O0000562      P0078      C02493        8      705.5    PACKED product_quarantined_in_staging          curated
+O0001777      P0078      C00700        3     416.79    PACKED product_quarantined_in_staging          curated
+
+CURATED sample (monetary measures + audit columns)
+                                                                                  0                                                                 1                                                                 2
+order_id                                                                   O0000001                                                          O0000002                                                          O0000003
+quantity                                                                          5                                                                 6                                                                 7
+unit_price                                                                 86572.35                                                           8062.51                                                          24400.44
+discount_pct                                                                    0.0                                                               0.1                                                               0.0
+gross_amount                                                              432861.75                                                          48375.06                                                         170803.08
+discount_amount                                                                 0.0                                                           4837.51                                                               0.0
+net_amount                                                                432861.75                                                          43537.55                                                         170803.08
+source_updated_at                                         2026-05-07 04:22:00+00:00                                         2026-08-16 21:31:00+00:00                                         2026-07-23 23:52:00+00:00
+pipeline_run_id                                   manual__2026-09-22T19:10:00+00:00                                 manual__2026-09-22T19:10:00+00:00                                 manual__2026-09-22T19:10:00+00:00
+processed_at_utc                                   2026-09-22 17:33:48.663036+00:00                                  2026-09-22 17:33:48.663036+00:00                                  2026-09-22 17:33:48.663036+00:00
+record_hash        255321fa72922b8b2261c79107086e8985f063109202de513a25217262c26f4d  4d39065dbf6ed12a58a21d9f1f328dce318d614dfc7a8ac750f197afdce63127  80e3e538154b4088fd5369c501f61f734e38a761fa2aaf9789fd312163213d6f
+
+DEDUP proof (orders with a newer duplicate version in orders.csv -> latest kept)
+order_id    status                updated_at
+O0000100 DELIVERED 2025-03-16 02:59:00+00:00
+O0002500 DELIVERED 2026-02-15 22:13:00+00:00
+O0010000 DELIVERED 2025-05-08 21:09:00+00:00
+O0022222 DELIVERED 2025-04-15 14:49:00+00:00
+O0049900 DELIVERED 2026-04-29 02:49:00+00:00
+customer_id                              email                updated_at
+     C00120       paolo.pascual120@example.com 2025-03-03 08:13:00+00:00
+     C01250 queenie.villanueva1250@example.com 2025-04-11 03:18:00+00:00
+     C02600       sofia.torres2600@example.com 2026-03-12 03:36:00+00:00

@@ -1,0 +1,68 @@
+Goal 3 Task D - selected-partition load demonstrated on an EMPTY served table (sandbox, 2026-09-22T17:33:15Z)
+The integrated run loads the full table first, so load-partition there reports 0 inserted / 2506 unchanged.
+To make the partition load itself visible, the served table is emptied first (demo only), then reloaded in full at the end.
+
+$ psql -c "TRUNCATE curated.sales_order_lines; TRUNCATE audit.partition_loads;"
+TRUNCATE TABLE
+TRUNCATE TABLE
+
+$ python -m src.cli load-partition --year 2026 --month 1
+{
+  "rows_in": 2506,
+  "inserted": 2506,
+  "updated": 0,
+  "unchanged": 0,
+  "partition_key": "order_year=2026/order_month=1",
+  "pipeline_run_id": "run_20260922T173315Z_2391d8bc"
+}
+
+$ python -m src.cli load-partition --year 2026 --month 1    # rerun
+{
+  "rows_in": 2506,
+  "inserted": 0,
+  "updated": 0,
+  "unchanged": 2506,
+  "partition_key": "order_year=2026/order_month=1",
+  "pipeline_run_id": "run_20260922T173316Z_c4c1e3a1"
+}
+
+ total | distinct_orders |       min_utc       |       max_utc       
+-------+-----------------+---------------------+---------------------
+  2506 |            2506 | 2026-01-01 00:53:00 | 2026-01-31 23:24:00
+(1 row)
+
+         partition_key         |        loaded_at_utc         | row_count |        pipeline_run_id        
+-------------------------------+------------------------------+-----------+-------------------------------
+ order_year=2026/order_month=1 | 2026-09-23 01:33:16.52908+08 |      2506 | run_20260922T173316Z_c4c1e3a1
+(1 row)
+
+$ python -m src.cli validate --year 2026 --month 1
+  },
+  "curated_rows": 49897,
+  "curated_quarantine_rows": 101,
+  "db_scope": "order_year=2026/order_month=1",
+  "db_total_rows": 2506,
+  "db_distinct_order_id": 2506,
+  "expected_rows_checked": 2506,
+  "missing": 0,
+  "stale": 0,
+  "failures": [],
+  "status": "PASSED"
+}
+
+# Read ONLY the selected partition directory with pandas and check every row belongs to it
+rows: 2506 | years: [np.int32(2026)] | months: [np.int32(1)] | min: 2026-01-01 00:53:00+00:00 | max: 2026-01-31 23:24:00+00:00
+
+$ python -m src.cli load    # restore the full table
+{
+  "rows_in": 49897,
+  "inserted": 47391,
+  "updated": 0,
+  "unchanged": 2506,
+  "pipeline_run_id": "run_20260922T173208Z_51decabc"
+}
+ total | distinct_orders 
+-------+-----------------
+ 49897 |           49897
+(1 row)
+

@@ -1,0 +1,8 @@
+{
+  "customers_physical_rows": 3003,
+  "customers_unique": 3000,
+  "products_physical_rows": 601,
+  "products_unique": 600,
+  "orders_physical_rows": 50005,
+  "orders_unique": 50000
+}

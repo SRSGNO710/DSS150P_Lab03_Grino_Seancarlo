@@ -1,0 +1,31 @@
+data/partitioned/
+  order_year=2025/
+    order_month=1/  (1 file, 328,375 bytes)
+    order_month=2/  (1 file, 301,085 bytes)
+    order_month=3/  (1 file, 322,677 bytes)
+    order_month=4/  (1 file, 319,616 bytes)
+    order_month=5/  (1 file, 333,203 bytes)
+    order_month=6/  (1 file, 325,375 bytes)
+    order_month=7/  (1 file, 323,747 bytes)
+    order_month=8/  (1 file, 333,855 bytes)
+    order_month=9/  (1 file, 325,648 bytes)
+    order_month=10/  (1 file, 328,092 bytes)
+    order_month=11/  (1 file, 320,752 bytes)
+    order_month=12/  (1 file, 332,482 bytes)
+  order_year=2026/
+    order_month=1/  (1 file, 334,496 bytes)
+    order_month=2/  (1 file, 306,701 bytes)
+    order_month=3/  (1 file, 331,608 bytes)
+    order_month=4/  (1 file, 320,082 bytes)
+    order_month=5/  (1 file, 331,024 bytes)
+    order_month=6/  (1 file, 321,577 bytes)
+    order_month=7/  (1 file, 337,662 bytes)
+    order_month=8/  (1 file, 341,797 bytes)
+    order_month=9/  (1 file, 145,295 bytes)
+
+$ find data/partitioned -name "*.parquet" | sort | head -5
+data/partitioned/order_year=2025/order_month=1/4b1f65c862f14892a6404dc2c7e36943-0.parquet
+data/partitioned/order_year=2025/order_month=10/4b1f65c862f14892a6404dc2c7e36943-0.parquet
+data/partitioned/order_year=2025/order_month=11/4b1f65c862f14892a6404dc2c7e36943-0.parquet
+data/partitioned/order_year=2025/order_month=12/4b1f65c862f14892a6404dc2c7e36943-0.parquet
+data/partitioned/order_year=2025/order_month=2/4b1f65c862f14892a6404dc2c7e36943-0.parquet

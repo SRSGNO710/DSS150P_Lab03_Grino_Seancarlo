@@ -1,0 +1,54 @@
+layer,column_name,data_type,nullable,description,source_field,transformation_rule
+raw,(all files),bytes,n/a,"Byte-identical copies of customers.csv, products.json, orders.csv in data/raw/run_id=<id>/ plus _manifest.json (bytes, sha256, physical_records)",data/source/*,shutil.copy2; SHA-256 of copy must equal source
+staging.customers,customer_id,text,no,Customer business key,customers.customer_id,trimmed; rows with blank key quarantined; one row per key (latest updated_at; tie -> later source row)
+staging.customers,first_name,text,yes,First name,customers.first_name,trimmed; blank -> null
+staging.customers,last_name,text,yes,Last name,customers.last_name,trimmed; blank -> null
+staging.customers,email,text,yes,Normalized email,customers.email,trim + lowercase; blank -> null (row kept)
+staging.customers,email_missing,boolean,no,Visible data-quality flag for missing email,customers.email,true when email blank/null
+staging.customers,city,text,yes,Normalized city,customers.city,"trim, collapse inner whitespace, title-case (""  manila  "" -> ""Manila"")"
+staging.customers,customer_tier,text,yes,Loyalty tier,customers.customer_tier,trim + title-case
+staging.customers,created_at,timestamptz,yes,Customer creation time (UTC),customers.created_at,ISO-8601 parsed as UTC
+staging.customers,updated_at,timestamptz,no,Last source update (UTC),customers.updated_at,ISO-8601 parsed as UTC; unparsable -> quarantine
+staging.products,product_id,text,no,Product business key,products.product_id,one row per key (latest updated_at)
+staging.products,name,text,yes,Product name,products.name,trimmed
+staging.products,category_name,text,yes,Category,products.category.name,flattened from nested category object
+staging.products,category_department,text,yes,Department,products.category.department,flattened from nested category object
+staging.products,brand,text,yes,Brand,products.brand,trimmed
+staging.products,unit_price,double,no,Catalog price,products.unit_price,numeric; non-numeric -> quarantine invalid_unit_price; < 0 -> quarantine negative_unit_price
+staging.products,active,boolean,yes,Catalog active flag,products.active,as delivered (inactive products are still valid for historical orders)
+staging.products,updated_at,timestamptz,no,Last source update (UTC),products.updated_at,ISO-8601 parsed as UTC
+staging.orders,order_id,text,no,Order business key,orders.order_id,one row per key (latest updated_at) BEFORE validity rules
+staging.orders,customer_id,text,no,Customer reference,orders.customer_id,blank -> quarantine missing_customer_id
+staging.orders,product_id,text,no,Product reference,orders.product_id,blank -> quarantine missing_product_id
+staging.orders,order_timestamp,timestamptz,no,Order time (UTC),orders.order_timestamp,ISO-8601 UTC; unparsable -> quarantine invalid_order_timestamp
+staging.orders,quantity,bigint,no,Units ordered,orders.quantity,integer in 1..20 else quarantine invalid_quantity
+staging.orders,unit_price,double,no,Price per unit charged on the order,orders.unit_price,numeric >= 0 else quarantine invalid_unit_price
+staging.orders,discount_pct,double,no,Discount fraction,orders.discount_pct,numeric in 0..1 else quarantine invalid_discount_pct
+staging.orders,status,text,no,Order status,orders.status,"uppercase; must be PENDING, PAID, PACKED, SHIPPED, DELIVERED or CANCELLED else quarantine invalid_status"
+staging.orders,updated_at,timestamptz,no,Last source update (UTC),orders.updated_at,ISO-8601 UTC; unparsable -> quarantine invalid_updated_at
+staging.*,pipeline_run_id,text,no,Run that produced the staging file,runtime,--run-id / PIPELINE_RUN_ID (Airflow run_id) / generated
+staging.*,staged_at_utc,timestamptz,no,When the staging file was produced,runtime,UTC now at staging
+curated,order_id,text,no,Primary key; PostgreSQL conflict key,staging.orders.order_id,unique (validated)
+curated,customer_id,text,no,Customer key,staging.orders.customer_id,must match a valid staged customer else quarantine orphan_customer_id / customer_quarantined_in_staging
+curated,product_id,text,no,Product key,staging.orders.product_id,must match a valid staged product else quarantine orphan_product_id / product_quarantined_in_staging
+curated,order_timestamp,timestamptz,no,Order time (UTC),staging.orders.order_timestamp,unchanged
+curated,customer_city,text,yes,Customer city at load time,staging.customers.city,left join on customer_id
+curated,customer_tier,text,yes,Customer tier,staging.customers.customer_tier,left join on customer_id
+curated,product_name,text,yes,Product name,staging.products.name,join on product_id
+curated,category,text,yes,Product category,staging.products.category_name,join on product_id
+curated,brand,text,yes,Product brand,staging.products.brand,join on product_id
+curated,quantity,integer,no,Units,staging.orders.quantity,unchanged
+curated,unit_price,"numeric(14,2)",no,Price per unit on the order,staging.orders.unit_price,order price (not catalog price)
+curated,discount_pct,"numeric(6,4)",no,Discount fraction,staging.orders.discount_pct,unchanged
+curated,gross_amount,"numeric(16,2)",no,Gross line value,derived,"round(quantity * unit_price, 2)"
+curated,discount_amount,"numeric(16,2)",no,Discount value,derived,"round(gross_amount * discount_pct, 2)"
+curated,net_amount,"numeric(16,2)",no,Net line value,derived,"round(gross_amount - discount_amount, 2)"
+curated,status,text,no,Order status,staging.orders.status,allowed values only
+curated,source_updated_at,timestamptz,no,Freshest contributing source update,"orders/customers/products.updated_at",max of the three updated_at values
+curated,pipeline_run_id,text,no,Run that produced the curated row,runtime,same id for every task in one DAG run
+curated,processed_at_utc,timestamptz,no,When curated was built,runtime,UTC now
+curated,record_hash,text,no,SHA-256 of business content,derived,"sha256 over canonicalized hash_columns (settings.yml); excludes pipeline_run_id, processed_at_utc, staged_at_utc, source_updated_at"
+quarantine,quarantine_reason,text,no,Why the row was rejected (';'-joined if several),derived,see reasons above
+quarantine,quarantine_layer,text,no,staging or curated,runtime,
+quarantine,quarantined_at_utc,timestamptz,no,When it was quarantined,runtime,
+partitioned,order_year / order_month,int (path),no,Hive-style partition keys,curated.order_timestamp,UTC year / month; stored in directory names order_year=YYYY/order_month=M

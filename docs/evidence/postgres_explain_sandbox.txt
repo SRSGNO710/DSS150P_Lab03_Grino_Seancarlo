@@ -1,0 +1,19 @@
+-- PostgreSQL 16.13 (Ubuntu 16.13-0ubuntu0.24.04.1)
+-- curated.sales_order_lines (primary key on order_id only)
+Seq Scan on sales_order_lines  (cost=0.00..2374.71 rows=8399 width=231) (actual time=0.012..5.829 rows=8355 loops=1)
+  Filter: (status = 'DELIVERED'::text)
+  Rows Removed by Filter: 41542
+  Buffers: shared hit=1751
+Planning Time: 0.070 ms
+Execution Time: 6.109 ms
+
+-- staging.benchmark_sales_order_lines with an added index on status
+Bitmap Heap Scan on benchmark_sales_order_lines  (cost=97.46..1994.57 rows=8409 width=231) (actual time=0.480..2.820 rows=8355 loops=1)
+  Recheck Cond: (status = 'DELIVERED'::text)
+  Heap Blocks: exact=1741
+  Buffers: shared hit=1750
+  ->  Bitmap Index Scan on benchmark_status_idx  (cost=0.00..95.36 rows=8409 width=0) (actual time=0.299..0.299 rows=8355 loops=1)
+        Index Cond: (status = 'DELIVERED'::text)
+        Buffers: shared hit=9
+Planning Time: 0.166 ms
+Execution Time: 3.165 ms

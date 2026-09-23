@@ -1,0 +1,317 @@
+Integrated technical acceptance test (lab section 11), clean state, 2026-09-22T17:32:07Z
+Environment: Ubuntu 24.04 sandbox, Python 3.11.15, PostgreSQL 16 server started locally
+Docker Hub was not reachable from this sandbox, so 'docker compose up -d postgres' was replaced by applying
+sql/init/*.sql with psql exactly as the postgres image entrypoint does (ON_ERROR_STOP, starting from db 'postgres').
+Password masked; it lives only in the untracked .env.
+
+# Goal 1 environment
+
+$ python3 -m src.cli validate-env
+2026-09-23 01:32:07,146 INFO [src.cli] START stage=validate-env run_id=None
+2026-09-23 01:32:07,443 INFO [src.cli] END stage=validate-env run_id=None in 0.30s
+{
+  "python": "3.11.15",
+  "platform": "Linux-6.18.44-fc-v37-x86_64-with-glibc2.39",
+  "packages": {
+    "pandas": "3.0.2",
+    "pyarrow": "25.0.1",
+    "psycopg2-binary": "2.9.10 (dt dec pq3 ext lo64)",
+    "PyYAML": "6.0.3",
+    "python-dotenv": "installed"
+  },
+  "source_dir": "/home/claude/dss150p/data/source",
+  "postgres_target": "dss150p@localhost:5432/dss150p",
+  "postgres": "unreachable (connection to server at \"localhost\" (127.0.0.1), port 5432 failed: FATAL:  database \"dss150p\" does not exist)",
+  "warnings": [
+    "PostgreSQL: unreachable (connection to server at \"localhost\" (127.0.0.1), port 5432 failed: FATAL:  database \"dss150p\" does not exist)"
+  ],
+  "problems": [],
+  "status": "OK"
+}
+[exit 0]
+
+$ (equivalent of) docker compose up -d postgres
+applied sql/init/00_create_databases.sql
+applied sql/init/01_warehouse_schema.sql
+       List of schemas
+  Name   |       Owner       
+---------+-------------------
+ audit   | dss150p
+ curated | dss150p
+ public  | pg_database_owner
+ staging | dss150p
+(4 rows)
+
+               List of relations
+ Schema  |       Name        | Type  |  Owner  
+---------+-------------------+-------+---------
+ curated | sales_order_lines | table | dss150p
+(1 row)
+
+             List of relations
+ Schema |      Name       | Type  |  Owner  
+--------+-----------------+-------+---------
+ audit  | partition_loads | table | dss150p
+ audit  | pipeline_runs   | table | dss150p
+(2 rows)
+
+
+$ python3 -m src.cli validate-env --require-db
+2026-09-23 01:32:07,769 INFO [src.cli] START stage=validate-env run_id=None
+2026-09-23 01:32:08,035 INFO [src.cli] END stage=validate-env run_id=None in 0.27s
+{
+  "python": "3.11.15",
+  "platform": "Linux-6.18.44-fc-v37-x86_64-with-glibc2.39",
+  "packages": {
+    "pandas": "3.0.2",
+    "pyarrow": "25.0.1",
+    "psycopg2-binary": "2.9.10 (dt dec pq3 ext lo64)",
+    "PyYAML": "6.0.3",
+    "python-dotenv": "installed"
+  },
+  "source_dir": "/home/claude/dss150p/data/source",
+  "postgres_target": "dss150p@localhost:5432/dss150p",
+  "postgres": "ok (schemas: audit,curated,staging)",
+  "warnings": [],
+  "problems": [],
+  "status": "OK"
+}
+[exit 0]
+
+# Goal 2 full pipeline
+
+$ python3 -m src.cli run-all
+2026-09-23 01:32:08,189 INFO [src.cli] START stage=extract run_id=run_20260922T173208Z_51decabc
+2026-09-23 01:32:08,210 INFO [src.extract.files] Raw snapshot /home/claude/dss150p/data/raw/run_id=run_20260922T173208Z_51decabc: {'customers': 3003, 'products': 601, 'orders': 50005}
+2026-09-23 01:32:08,210 INFO [src.cli] END stage=extract run_id=run_20260922T173208Z_51decabc in 0.02s
+2026-09-23 01:32:08,460 INFO [src.cli] START stage=transform.staging run_id=run_20260922T173208Z_51decabc
+2026-09-23 01:32:09,214 INFO [src.transform.staging] Staging complete: {'customers': (3000, 0), 'products': (599, 1), 'orders': (49998, 2)}
+2026-09-23 01:32:09,214 INFO [src.cli] END stage=transform.staging run_id=run_20260922T173208Z_51decabc in 0.75s
+2026-09-23 01:32:09,214 INFO [src.cli] START stage=transform.curated run_id=run_20260922T173208Z_51decabc
+2026-09-23 01:32:11,158 INFO [src.transform.curated] Curated complete: {'staged_orders_in': 49998, 'curated_rows': 49897, 'quarantined_rows': 101, 'quarantine_reasons': {'product_quarantined_in_staging': 99, 'orphan_customer_id': 1, 'orphan_product_id': 1}, 'net_amount_total': 9273680736.6}
+2026-09-23 01:32:11,159 INFO [src.cli] END stage=transform.curated run_id=run_20260922T173208Z_51decabc in 1.95s
+{
+  "pipeline_run_id": "run_20260922T173208Z_51decabc",
+  "started_at_utc": "2026-09-22T17:32:08.189603+00:00",
+  "completed_at_utc": "2026-09-22T17:32:11.159991+00:00",
+  "raw_dir": "/home/claude/dss150p/data/raw/run_id=run_20260922T173208Z_51decabc",
+  "staging": {
+    "customers": {
+      "raw_rows": 3003,
+      "staged_rows": 3000,
+      "quarantined_rows": 0,
+      "quarantine_reasons": {},
+      "duplicates_removed": 3,
+      "missing_email": 4
+    },
+    "products": {
+      "raw_rows": 601,
+      "staged_rows": 599,
+      "quarantined_rows": 1,
+      "quarantine_reasons": {
+        "negative_unit_price": 1
+      },
+      "duplicates_removed": 1
+    },
+    "orders": {
+      "raw_rows": 50005,
+      "staged_rows": 49998,
+      "quarantined_rows": 2,
+      "quarantine_reasons": {
+        "invalid_quantity": 1,
+        "invalid_status": 1
+      },
+      "duplicates_removed": 5
+    }
+  },
+  "curated": {
+    "staged_orders_in": 49998,
+    "curated_rows": 49897,
+    "quarantined_rows": 101,
+    "quarantine_reasons": {
+      "product_quarantined_in_staging": 99,
+      "orphan_customer_id": 1,
+      "orphan_product_id": 1
+    },
+    "net_amount_total": 9273680736.6
+  },
+  "rows_staging": 53597,
+  "rows_curated": 49897,
+  "rows_quarantined": 104
+}
+[exit 0]
+
+$ python3 -m src.cli load
+2026-09-23 01:32:11,578 INFO [src.cli] START stage=load run_id=None
+2026-09-23 01:32:14,812 INFO [src.load.postgres] Full load: {'rows_in': 49897, 'inserted': 49897, 'updated': 0, 'unchanged': 0, 'pipeline_run_id': 'run_20260922T173208Z_51decabc'}
+2026-09-23 01:32:14,812 INFO [src.cli] END stage=load run_id=None in 3.23s
+{
+  "rows_in": 49897,
+  "inserted": 49897,
+  "updated": 0,
+  "unchanged": 0,
+  "pipeline_run_id": "run_20260922T173208Z_51decabc"
+}
+[exit 0]
+
+# rerun-safety: second load
+
+$ python3 -m src.cli load
+2026-09-23 01:32:15,245 INFO [src.cli] START stage=load run_id=None
+2026-09-23 01:32:18,207 INFO [src.load.postgres] Full load: {'rows_in': 49897, 'inserted': 0, 'updated': 0, 'unchanged': 49897, 'pipeline_run_id': 'run_20260922T173208Z_51decabc'}
+2026-09-23 01:32:18,207 INFO [src.cli] END stage=load run_id=None in 2.96s
+{
+  "rows_in": 49897,
+  "inserted": 0,
+  "updated": 0,
+  "unchanged": 49897,
+  "pipeline_run_id": "run_20260922T173208Z_51decabc"
+}
+[exit 0]
+$ psql -c "SELECT COUNT(*) total, COUNT(DISTINCT order_id) distinct_orders FROM curated.sales_order_lines;"
+ total | distinct_orders 
+-------+-----------------
+ 49897 |           49897
+(1 row)
+
+
+$ python3 -m src.cli validate
+2026-09-23 01:32:18,681 INFO [src.cli] START stage=validate run_id=None
+2026-09-23 01:32:19,061 INFO [src.validate.checks] Validation passed: {'staging_rows': {'customers': 3000, 'products': 599, 'orders': 49998}, 'curated_rows': 49897, 'curated_quarantine_rows': 101, 'db_total_rows': 49897, 'db_distinct_order_id': 49897, 'expected_rows_checked': 49897, 'missing': 0, 'stale': 0, 'failures': [], 'status': 'PASSED'}
+2026-09-23 01:32:19,062 INFO [src.cli] END stage=validate run_id=None in 0.38s
+{
+  "staging_rows": {
+    "customers": 3000,
+    "products": 599,
+    "orders": 49998
+  },
+  "curated_rows": 49897,
+  "curated_quarantine_rows": 101,
+  "db_total_rows": 49897,
+  "db_distinct_order_id": 49897,
+  "expected_rows_checked": 49897,
+  "missing": 0,
+  "stale": 0,
+  "failures": [],
+  "status": "PASSED"
+}
+[exit 0]
+
+# Goal 3 benchmark and partition
+$ python -m src.cli benchmark --repeats 5   (JSON output trimmed to the key fields)
+{
+  "environment": {
+    "os": "Linux-6.18.44-fc-v37-x86_64-with-glibc2.39",
+    "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+    "logical_cpus": 2,
+    "ram_gb": 7.8,
+    "python": "3.11.15",
+    "pandas": "3.0.2",
+    "pyarrow": "25.0.1",
+    "repeats": 5,
+    "filter": "status = DELIVERED",
+    "rows": 49897,
+    "note": "first read of each format discarded as warm-up"
+  },
+  "partitioning": {
+    "output_dir": "/home/claude/dss150p/data/partitioned",
+    "partition_count": 21,
+    "rows": 49897
+  },
+  "selected_partition_check": {
+    "partition": "order_year=2026/order_month=1",
+    "rows": 2506,
+    "rows_outside_partition": 0,
+    "ok": true
+  }
+}
+data/partitioned/
+  order_year=2025/
+    order_month=1/  (1 file, 328,335 bytes)
+    order_month=2/  (1 file, 301,045 bytes)
+    order_month=3/  (1 file, 322,637 bytes)
+    order_month=4/  (1 file, 319,576 bytes)
+    order_month=5/  (1 file, 333,163 bytes)
+    order_month=6/  (1 file, 325,335 bytes)
+    order_month=7/  (1 file, 323,707 bytes)
+    order_month=8/  (1 file, 333,815 bytes)
+    order_month=9/  (1 file, 325,608 bytes)
+    order_month=10/  (1 file, 328,052 bytes)
+    order_month=11/  (1 file, 320,712 bytes)
+    order_month=12/  (1 file, 332,442 bytes)
+  order_year=2026/
+    order_month=1/  (1 file, 334,456 bytes)
+    order_month=2/  (1 file, 306,661 bytes)
+    order_month=3/  (1 file, 331,568 bytes)
+    order_month=4/  (1 file, 320,042 bytes)
+    order_month=5/  (1 file, 330,984 bytes)
+    order_month=6/  (1 file, 321,537 bytes)
+    order_month=7/  (1 file, 337,622 bytes)
+    order_month=8/  (1 file, 341,757 bytes)
+    order_month=9/  (1 file, 145,255 bytes)
+[exit 0]
+
+$ cat data/benchmarks/benchmark_results.csv
+storage_type,file_size_bytes,write_seconds,full_read_seconds,filtered_read_seconds,row_count,notes
+csv,14897558,1.0070,0.2384,0.2373,49897,Text; every read re-parses and re-infers types (timestamps stay strings unless parsed). No pushdown: filter = read everything then filter in pandas. filtered_rows=8355; median of 5
+jsonl,30240770,1.2053,0.5141,0.5169,49897,"One self-describing JSON object per line: column names repeated on every row, so most verbose; slowest to parse; append/stream friendly. No pushdown. filtered_rows=8355; median of 5"
+parquet,5254700,0.0567,0.0357,0.0288,49897,"Columnar + dictionary/RLE encoding + snappy; typed schema stored in file. Filter pushed into the reader (filters=), row-group statistics can skip data. filtered_rows=8355; median of 5"
+postgresql,15974400,0.2630,0.5736,0.0857,49897,"PostgreSQL 16.13 (Ubuntu 16.13-0ubuntu0.24.04.1). Size = pg_total_relation_size (heap 14344192 + indexes 1589248 bytes), not a file. Write = COPY into an empty copy of the table. Reads = query + fetch over a local socket into pandas. Filter uses PK-only table (sequential scan). filtered_rows=8355; median of 5"
+postgresql_status_index,16670720,,,0.0948,49897,Experiment: same rows + B-tree index on status. filtered_rows=8355; see postgres_explain.txt for the chosen plan; median of 5
+
+$ python3 -m src.cli load-partition --year 2026 --month 1
+2026-09-23 01:32:49,397 INFO [src.cli] START stage=load-partition run_id=run_20260922T173249Z_95e166af
+2026-09-23 01:32:49,604 INFO [src.load.postgres] Partition load: {'rows_in': 2506, 'inserted': 0, 'updated': 0, 'unchanged': 2506, 'partition_key': 'order_year=2026/order_month=1', 'pipeline_run_id': 'run_20260922T173249Z_95e166af'}
+2026-09-23 01:32:49,604 INFO [src.cli] END stage=load-partition run_id=run_20260922T173249Z_95e166af in 0.21s
+{
+  "rows_in": 2506,
+  "inserted": 0,
+  "updated": 0,
+  "unchanged": 2506,
+  "partition_key": "order_year=2026/order_month=1",
+  "pipeline_run_id": "run_20260922T173249Z_95e166af"
+}
+[exit 0]
+
+# rerun the same partition
+
+$ python3 -m src.cli load-partition --year 2026 --month 1
+2026-09-23 01:32:50,023 INFO [src.cli] START stage=load-partition run_id=run_20260922T173250Z_ffa4f618
+2026-09-23 01:32:50,247 INFO [src.load.postgres] Partition load: {'rows_in': 2506, 'inserted': 0, 'updated': 0, 'unchanged': 2506, 'partition_key': 'order_year=2026/order_month=1', 'pipeline_run_id': 'run_20260922T173250Z_ffa4f618'}
+2026-09-23 01:32:50,247 INFO [src.cli] END stage=load-partition run_id=run_20260922T173250Z_ffa4f618 in 0.22s
+{
+  "rows_in": 2506,
+  "inserted": 0,
+  "updated": 0,
+  "unchanged": 2506,
+  "partition_key": "order_year=2026/order_month=1",
+  "pipeline_run_id": "run_20260922T173250Z_ffa4f618"
+}
+[exit 0]
+         partition_key         |        loaded_at_utc         | row_count |        pipeline_run_id        
+-------------------------------+------------------------------+-----------+-------------------------------
+ order_year=2026/order_month=1 | 2026-09-23 01:32:50.24429+08 |      2506 | run_20260922T173250Z_ffa4f618
+(1 row)
+
+ total | distinct_orders 
+-------+-----------------
+  2506 |            2506
+(1 row)
+
+ total | distinct_orders 
+-------+-----------------
+ 49897 |           49897
+(1 row)
+
+        pipeline_run_id        | status | rows_staging | rows_curated | rows_quarantined |                               message                               
+-------------------------------+--------+--------------+--------------+------------------+---------------------------------------------------------------------
+ run_20260922T173208Z_51decabc | loaded |        53597 |        49897 |              104 | {"rows_in": 49897, "inserted": 0, "updated": 0, "unchanged": 49897}
+(1 row)
+
+
+# Unit tests
+
+$ python3 -m pytest -q
+..........                                                               [100%]
+10 passed, 1 skipped in 0.74s
+[exit 0]

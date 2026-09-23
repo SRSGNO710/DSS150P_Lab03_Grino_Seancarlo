@@ -1,0 +1,87 @@
+Goal 4 PRE-FLIGHT CHECK of dags/dss150p_pipeline.py (sandbox, 2026-09-22T17:33:34Z)
+==================================================================================
+NOT Airflow evidence. Apache Airflow could not be installed in this sandbox (no PyPI / Docker Hub access).
+A small test double imported the real DAG file, rendered each BashOperator command with Jinja exactly as
+Airflow does (run_id + params), and executed the tasks in dependency order using the DAG's own retries,
+on_retry_callback and on_failure_callback (retry delay skipped). It proves the commands, parameters,
+run-id propagation, failure handling and recovery work. The required screenshots must come from the real
+Airflow UI - see README 'Goal 4 runbook'.
+
+### DAG structure
+dag_id: dss150p_sales_pipeline | schedule: 0 2 * * * | catchup: False | max_active_runs: 1
+start_date: 2026-01-01 00:00:00+08:00 | params: {'run_mode': 'full', 'year': 2026, 'month': 1}
+  extract   -> ['transform']  retries=2 retry_delay=0:01:00 timeout=0:05:00 failure_cb=failure_callback
+  transform -> ['load']  retries=2 retry_delay=0:01:00 timeout=0:15:00 failure_cb=failure_callback
+  load      -> ['validate']  retries=2 retry_delay=0:01:00 timeout=0:15:00 failure_cb=failure_callback
+  validate  -> []  retries=2 retry_delay=0:01:00 timeout=0:10:00 failure_cb=failure_callback
+STRUCTURE OK
+
+### 1) Manual full run
+[extract] try 1/3  $ cd /home/claude/dss150p && export PIPELINE_RUN_ID="manual__2026-09-22T19:00:00+00:00" && python -m src.cli extract
+   2026-09-23 01:33:34,870 INFO [src.cli] END stage=extract run_id=manual__2026-09-22T19:00:00+00:00 in 0.02s
+[transform] try 1/3  $ cd /home/claude/dss150p && export PIPELINE_RUN_ID="manual__2026-09-22T19:00:00+00:00" && python -m src.cli transform
+   2026-09-23 01:33:35,990 INFO [src.cli] END stage=transform.staging run_id=manual__2026-09-22T19:00:00+00:00 in 0.78s
+   2026-09-23 01:33:37,713 INFO [src.cli] END stage=transform.curated run_id=manual__2026-09-22T19:00:00+00:00 in 1.72s
+[load] try 1/3  $ cd /home/claude/dss150p && export PIPELINE_RUN_ID="manual__2026-09-22T19:00:00+00:00" && python -m src.cli load
+   2026-09-23 01:33:41,127 INFO [src.cli] END stage=load run_id=manual__2026-09-22T19:00:00+00:00 in 2.99s
+[validate] try 1/3  $ cd /home/claude/dss150p && export PIPELINE_RUN_ID="manual__2026-09-22T19:00:00+00:00" && python -m src.cli validate
+   2026-09-23 01:33:41,875 INFO [src.cli] END stage=validate run_id=manual__2026-09-22T19:00:00+00:00 in 0.34s
+DAG RUN manual__2026-09-22T19:00:00+00:00 -> {"extract": "success", "transform": "success", "load": "success", "validate": "success"}
+
+### 2) Parameterized partition run {run_mode: partition, year: 2026, month: 1}
+[extract] try 1/3  $ cd /home/claude/dss150p && export PIPELINE_RUN_ID="manual__2026-09-22T19:05:00+00:00" && python -m src.cli extract
+   2026-09-23 01:33:42,129 INFO [src.cli] END stage=extract run_id=manual__2026-09-22T19:05:00+00:00 in 0.02s
+[transform] try 1/3  $ cd /home/claude/dss150p && export PIPELINE_RUN_ID="manual__2026-09-22T19:05:00+00:00" && python -m src.cli transform
+   2026-09-23 01:33:42,981 INFO [src.cli] END stage=transform.staging run_id=manual__2026-09-22T19:05:00+00:00 in 0.52s
+   2026-09-23 01:33:44,874 INFO [src.cli] END stage=transform.curated run_id=manual__2026-09-22T19:05:00+00:00 in 1.89s
+[load] try 1/3  $ cd /home/claude/dss150p && export PIPELINE_RUN_ID="manual__2026-09-22T19:05:00+00:00" && python -m src.cli partition && python -m src.cli load-partition --year 2026 --month 1 --run-id "$PIPELINE_RUN_ID"
+   2026-09-23 01:33:45,591 INFO [src.cli] END stage=partition run_id=manual__2026-09-22T19:05:00+00:00 in 0.29s
+   2026-09-23 01:33:46,209 INFO [src.cli] END stage=load-partition run_id=manual__2026-09-22T19:05:00+00:00 in 0.21s
+[validate] try 1/3  $ cd /home/claude/dss150p && export PIPELINE_RUN_ID="manual__2026-09-22T19:05:00+00:00" && python -m src.cli validate --year 2026 --month 1
+   2026-09-23 01:33:46,872 INFO [src.cli] END stage=validate run_id=manual__2026-09-22T19:05:00+00:00 in 0.26s
+DAG RUN manual__2026-09-22T19:05:00+00:00 -> {"extract": "success", "transform": "success", "load": "success", "validate": "success"}
+         partition_key         |         loaded_at_utc         | row_count |          pipeline_run_id          
+-------------------------------+-------------------------------+-----------+-----------------------------------
+ order_year=2026/order_month=1 | 2026-09-23 01:33:46.207054+08 |      2506 | manual__2026-09-22T19:05:00+00:00
+(1 row)
+
+### 3) Deliberate failure: data/source/orders.csv temporarily renamed (content untouched)
+[extract] try 1/3  $ cd /home/claude/dss150p && export PIPELINE_RUN_ID="manual__2026-09-22T19:10:00+00:00" && python -m src.cli extract
+   2026-09-23 01:33:47,162 ERROR [src.cli] PIPELINE FAILURE at 2026-09-22T17:33:47.162682+00:00: [stage=extract] Source file not found: /home/claude/dss150p/data/source/orders.csv (dataset=orders run_id=manual__2026-09-22T19:10:00+00:00)
+DSS150P TASK WILL RETRY {"event": "task_up_for_retry", "at_utc": "2026-09-22T17:33:47.178350+00:00", "dag_id": "dss150p_sales_pipeline", "task_id": "extract", "run_id": "manual__2026-09-22T19:10:00+00:00", "try_number": 1, "max_tries": 3, "logical_date": "2026
+[extract] try 2/3  $ cd /home/claude/dss150p && export PIPELINE_RUN_ID="manual__2026-09-22T19:10:00+00:00" && python -m src.cli extract
+   2026-09-23 01:33:47,248 ERROR [src.cli] PIPELINE FAILURE at 2026-09-22T17:33:47.248010+00:00: [stage=extract] Source file not found: /home/claude/dss150p/data/source/orders.csv (dataset=orders run_id=manual__2026-09-22T19:10:00+00:00)
+DSS150P TASK WILL RETRY {"event": "task_up_for_retry", "at_utc": "2026-09-22T17:33:47.260011+00:00", "dag_id": "dss150p_sales_pipeline", "task_id": "extract", "run_id": "manual__2026-09-22T19:10:00+00:00", "try_number": 2, "max_tries": 3, "logical_date": "2026
+[extract] try 3/3  $ cd /home/claude/dss150p && export PIPELINE_RUN_ID="manual__2026-09-22T19:10:00+00:00" && python -m src.cli extract
+   2026-09-23 01:33:47,323 ERROR [src.cli] PIPELINE FAILURE at 2026-09-22T17:33:47.323195+00:00: [stage=extract] Source file not found: /home/claude/dss150p/data/source/orders.csv (dataset=orders run_id=manual__2026-09-22T19:10:00+00:00)
+DSS150P TASK FAILED {"event": "task_failed", "at_utc": "2026-09-22T17:33:47.336041+00:00", "dag_id": "dss150p_sales_pipeline", "task_id": "extract", "run_id": "manual__2026-09-22T19:10:00+00:00", "try_number": 3, "max_tries": 3, "logical_date": "2026-09-22 17:
+DAG RUN manual__2026-09-22T19:10:00+00:00 -> {"extract": "failed", "transform": "upstream_failed", "load": "upstream_failed", "validate": "upstream_failed"}
+
+$ cat logs/airflow_failures.jsonl   # written by failure_callback
+{"event": "task_failed", "at_utc": "2026-09-22T17:33:47.336041+00:00", "dag_id": "dss150p_sales_pipeline", "task_id": "extract", "run_id": "manual__2026-09-22T19:10:00+00:00", "try_number": 3, "max_tries": 3, "logical_date": "2026-09-22 17:33:47.336024+00:00", "params": {"run_mode": "full", "year": 2026, "month": 1}, "error_type": "Exception", "error": "Bash command failed. The command returned a non-zero exit code 1.", "log_url": "http://localhost:8080/log?dag_id=dss150p_sales_pipeline&task_id=extract"}
+
+### Recovery: restore file, verify it is byte-identical, clear the failed task (+downstream), same run id
+customers.csv: OK
+orders.csv: OK
+products.json: OK
+[extract] try 1/3  $ cd /home/claude/dss150p && export PIPELINE_RUN_ID="manual__2026-09-22T19:10:00+00:00" && python -m src.cli extract
+[transform] try 1/3  $ cd /home/claude/dss150p && export PIPELINE_RUN_ID="manual__2026-09-22T19:10:00+00:00" && python -m src.cli transform
+[load] try 1/3  $ cd /home/claude/dss150p && export PIPELINE_RUN_ID="manual__2026-09-22T19:10:00+00:00" && python -m src.cli load
+[validate] try 1/3  $ cd /home/claude/dss150p && export PIPELINE_RUN_ID="manual__2026-09-22T19:10:00+00:00" && python -m src.cli validate
+DAG RUN manual__2026-09-22T19:10:00+00:00 -> {"extract": "success", "transform": "success", "load": "success", "validate": "success"}
+ total | distinct_orders 
+-------+-----------------
+ 49897 |           49897
+(1 row)
+
+          pipeline_run_id          | status |                               message                               
+-----------------------------------+--------+---------------------------------------------------------------------
+ manual__2026-09-22T19:00:00+00:00 | loaded | {"rows_in": 49897, "inserted": 0, "updated": 0, "unchanged": 49897}
+ manual__2026-09-22T19:10:00+00:00 | loaded | {"rows_in": 49897, "inserted": 0, "updated": 0, "unchanged": 49897}
+(2 rows)
+
+### Run-id propagation: one Airflow run id in raw folder, staging, curated and audit tables
+data/raw/run_id=manual__2026-09-22T19_10_00_00_00
+staging.orders pipeline_run_id: ['manual__2026-09-22T19:10:00+00:00']
+curated pipeline_run_id      : ['manual__2026-09-22T19:10:00+00:00']
+raw manifest pipeline_run_id : manual__2026-09-22T19:10:00+00:00

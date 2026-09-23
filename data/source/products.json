@@ -1,0 +1,7214 @@
+[
+  {
+    "product_id": "P0001",
+    "name": "Pioneer Networking 001",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 86351.39,
+    "active": true,
+    "updated_at": "2026-01-02T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0002",
+    "name": "Helix Storage 002",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 8920.46,
+    "active": true,
+    "updated_at": "2024-08-19T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0003",
+    "name": "Orion Storage 003",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 19688.11,
+    "active": true,
+    "updated_at": "2025-07-27T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0004",
+    "name": "Nimbus Storage 004",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 23373.7,
+    "active": true,
+    "updated_at": "2025-10-02T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0005",
+    "name": "Orion Laptop 005",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 11408.94,
+    "active": true,
+    "updated_at": "2025-10-28T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0006",
+    "name": "Helix Laptop 006",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 64359.42,
+    "active": true,
+    "updated_at": "2025-07-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0007",
+    "name": "Nimbus Monitor 007",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 50875.77,
+    "active": true,
+    "updated_at": "2026-03-23T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0008",
+    "name": "Orion Accessory 008",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 51014.7,
+    "active": true,
+    "updated_at": "2025-02-16T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0009",
+    "name": "Zenith Phone 009",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 73194.48,
+    "active": true,
+    "updated_at": "2025-11-22T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0010",
+    "name": "Nimbus Tablet 010",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 53583.15,
+    "active": false,
+    "updated_at": "2024-04-29T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0011",
+    "name": "Orion Networking 011",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 57532.56,
+    "active": true,
+    "updated_at": "2025-09-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0012",
+    "name": "Helix Monitor 012",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 25964.8,
+    "active": true,
+    "updated_at": "2024-02-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0013",
+    "name": "Orion Networking 013",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 4808.32,
+    "active": true,
+    "updated_at": "2024-09-22T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0014",
+    "name": "Nimbus Monitor 014",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 77030.15,
+    "active": true,
+    "updated_at": "2024-04-16T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0015",
+    "name": "Pioneer Laptop 015",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 89692.72,
+    "active": true,
+    "updated_at": "2025-04-14T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0016",
+    "name": "Nimbus Tablet 016",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 24970.01,
+    "active": true,
+    "updated_at": "2024-09-05T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0017",
+    "name": "Orion Storage 017",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 29339.36,
+    "active": true,
+    "updated_at": "2025-08-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0018",
+    "name": "Aster Phone 018",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 39315.77,
+    "active": true,
+    "updated_at": "2024-07-19T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0019",
+    "name": "Helix Audio 019",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 86867.06,
+    "active": true,
+    "updated_at": "2024-01-26T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0020",
+    "name": "Aster Phone 020",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 38796.92,
+    "active": true,
+    "updated_at": "2024-04-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0021",
+    "name": "Pioneer Tablet 021",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 42967.98,
+    "active": true,
+    "updated_at": "2024-05-20T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0022",
+    "name": "Vertex Laptop 022",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 32289.2,
+    "active": true,
+    "updated_at": "2024-12-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0023",
+    "name": "Nova Monitor 023",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 68616.49,
+    "active": true,
+    "updated_at": "2026-04-29T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0024",
+    "name": "Aster Phone 024",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 72681.87,
+    "active": true,
+    "updated_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0025",
+    "name": "Helix Tablet 025",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 5576.81,
+    "active": true,
+    "updated_at": "2024-04-20T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0026",
+    "name": "Pioneer Monitor 026",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 30954.76,
+    "active": true,
+    "updated_at": "2024-07-05T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0027",
+    "name": "Orion Audio 027",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 48657.16,
+    "active": true,
+    "updated_at": "2025-01-15T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0028",
+    "name": "Zenith Storage 028",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 87271.33,
+    "active": true,
+    "updated_at": "2024-10-06T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0029",
+    "name": "Helix Accessory 029",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 16882.32,
+    "active": true,
+    "updated_at": "2025-07-12T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0030",
+    "name": "Orion Phone 030",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 18066.64,
+    "active": true,
+    "updated_at": "2025-12-26T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0031",
+    "name": "Pioneer Laptop 031",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 5365.12,
+    "active": false,
+    "updated_at": "2024-08-19T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0032",
+    "name": "Vertex Storage 032",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 4877.31,
+    "active": true,
+    "updated_at": "2024-11-12T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0033",
+    "name": "Aster Storage 033",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 74739.14,
+    "active": true,
+    "updated_at": "2024-02-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0034",
+    "name": "Helix Accessory 034",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 36572.06,
+    "active": true,
+    "updated_at": "2025-03-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0035",
+    "name": "Helix Audio 035",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 12522.21,
+    "active": true,
+    "updated_at": "2024-05-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0036",
+    "name": "Aster Phone 036",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 77383.38,
+    "active": true,
+    "updated_at": "2024-12-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0037",
+    "name": "Pioneer Monitor 037",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 12823.47,
+    "active": true,
+    "updated_at": "2024-06-12T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0038",
+    "name": "Aster Laptop 038",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 83133.63,
+    "active": true,
+    "updated_at": "2025-08-29T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0039",
+    "name": "Nova Audio 039",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 54778.38,
+    "active": true,
+    "updated_at": "2025-03-09T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0040",
+    "name": "Helix Networking 040",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 3097.42,
+    "active": true,
+    "updated_at": "2025-09-26T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0041",
+    "name": "Vertex Monitor 041",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 72412.43,
+    "active": true,
+    "updated_at": "2026-01-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0042",
+    "name": "Nimbus Accessory 042",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 65962.25,
+    "active": true,
+    "updated_at": "2024-03-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0043",
+    "name": "Nova Laptop 043",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 48654.28,
+    "active": true,
+    "updated_at": "2024-04-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0044",
+    "name": "Aster Networking 044",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 17651.95,
+    "active": true,
+    "updated_at": "2026-03-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0045",
+    "name": "Zenith Storage 045",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 86772.69,
+    "active": true,
+    "updated_at": "2024-01-08T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0046",
+    "name": "Aster Networking 046",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 87748.04,
+    "active": true,
+    "updated_at": "2026-01-09T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0047",
+    "name": "Vertex Audio 047",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 22304.86,
+    "active": true,
+    "updated_at": "2025-09-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0048",
+    "name": "Nova Storage 048",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 24505.53,
+    "active": true,
+    "updated_at": "2025-12-27T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0049",
+    "name": "Zenith Laptop 049",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 30639.95,
+    "active": true,
+    "updated_at": "2024-05-05T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0050",
+    "name": "Pioneer Phone 050",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 705.45,
+    "active": true,
+    "updated_at": "2025-05-14T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0051",
+    "name": "Zenith Storage 051",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 84649.31,
+    "active": true,
+    "updated_at": "2025-06-23T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0052",
+    "name": "Vertex Networking 052",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 78389.01,
+    "active": true,
+    "updated_at": "2024-08-25T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0053",
+    "name": "Nimbus Phone 053",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 89403.1,
+    "active": true,
+    "updated_at": "2025-02-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0054",
+    "name": "Zenith Storage 054",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 21032.34,
+    "active": true,
+    "updated_at": "2024-02-28T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0055",
+    "name": "Aster Monitor 055",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 18831.27,
+    "active": true,
+    "updated_at": "2025-03-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0056",
+    "name": "Pioneer Accessory 056",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 14507.56,
+    "active": true,
+    "updated_at": "2025-05-30T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0057",
+    "name": "Zenith Monitor 057",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 3007.46,
+    "active": true,
+    "updated_at": "2024-06-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0058",
+    "name": "Nimbus Monitor 058",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 27922.39,
+    "active": true,
+    "updated_at": "2024-04-12T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0059",
+    "name": "Orion Laptop 059",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 61238.3,
+    "active": true,
+    "updated_at": "2024-08-03T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0060",
+    "name": "Pioneer Storage 060",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 24440.71,
+    "active": true,
+    "updated_at": "2024-12-11T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0061",
+    "name": "Orion Monitor 061",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 50431.31,
+    "active": true,
+    "updated_at": "2024-06-09T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0062",
+    "name": "Nova Storage 062",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 4068.12,
+    "active": true,
+    "updated_at": "2024-08-16T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0063",
+    "name": "Nimbus Accessory 063",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 47832.89,
+    "active": true,
+    "updated_at": "2024-05-08T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0064",
+    "name": "Aster Networking 064",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 47232.89,
+    "active": true,
+    "updated_at": "2025-12-02T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0065",
+    "name": "Aster Monitor 065",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 18125.28,
+    "active": false,
+    "updated_at": "2024-10-22T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0066",
+    "name": "Nimbus Phone 066",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 15462.19,
+    "active": true,
+    "updated_at": "2026-01-27T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0067",
+    "name": "Nimbus Accessory 067",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 68969.66,
+    "active": true,
+    "updated_at": "2025-05-26T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0068",
+    "name": "Aster Accessory 068",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 5426.97,
+    "active": true,
+    "updated_at": "2025-12-14T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0069",
+    "name": "Helix Tablet 069",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 67900.84,
+    "active": true,
+    "updated_at": "2024-01-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0070",
+    "name": "Zenith Phone 070",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 74756.7,
+    "active": true,
+    "updated_at": "2025-09-28T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0071",
+    "name": "Aster Accessory 071",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 44232.36,
+    "active": true,
+    "updated_at": "2026-04-13T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0072",
+    "name": "Pioneer Tablet 072",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 6407.85,
+    "active": false,
+    "updated_at": "2025-04-28T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0073",
+    "name": "Nimbus Networking 073",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 68643.55,
+    "active": true,
+    "updated_at": "2024-05-05T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0074",
+    "name": "Nimbus Tablet 074",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 85832.02,
+    "active": true,
+    "updated_at": "2024-04-29T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0075",
+    "name": "Helix Audio 075",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 29500.22,
+    "active": true,
+    "updated_at": "2026-02-11T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0076",
+    "name": "Helix Tablet 076",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 22417.45,
+    "active": true,
+    "updated_at": "2026-01-12T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0077",
+    "name": "Pioneer Accessory 077",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 19310.99,
+    "active": true,
+    "updated_at": "2024-05-12T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0078",
+    "name": "Nova Networking 078",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": -199.0,
+    "active": true,
+    "updated_at": "2025-07-29T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0079",
+    "name": "Nova Monitor 079",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 24296.45,
+    "active": true,
+    "updated_at": "2026-04-02T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0080",
+    "name": "Zenith Monitor 080",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 32146.09,
+    "active": true,
+    "updated_at": "2025-02-24T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0081",
+    "name": "Pioneer Networking 081",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 12478.98,
+    "active": true,
+    "updated_at": "2024-03-02T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0082",
+    "name": "Pioneer Accessory 082",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 39513.33,
+    "active": true,
+    "updated_at": "2024-04-05T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0083",
+    "name": "Vertex Accessory 083",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 68634.85,
+    "active": true,
+    "updated_at": "2025-07-02T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0084",
+    "name": "Aster Laptop 084",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 81907.0,
+    "active": true,
+    "updated_at": "2024-03-31T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0085",
+    "name": "Aster Monitor 085",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 486.79,
+    "active": true,
+    "updated_at": "2025-01-06T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0086",
+    "name": "Aster Laptop 086",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 32149.94,
+    "active": true,
+    "updated_at": "2025-03-02T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0087",
+    "name": "Helix Laptop 087",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 29643.14,
+    "active": true,
+    "updated_at": "2025-02-07T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0088",
+    "name": "Vertex Phone 088",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 55185.22,
+    "active": true,
+    "updated_at": "2025-07-27T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0089",
+    "name": "Nimbus Tablet 089",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 5318.79,
+    "active": true,
+    "updated_at": "2026-04-20T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0090",
+    "name": "Aster Storage 090",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 31265.73,
+    "active": true,
+    "updated_at": "2026-04-28T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0091",
+    "name": "Nimbus Phone 091",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 77292.24,
+    "active": true,
+    "updated_at": "2025-06-08T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0092",
+    "name": "Aster Networking 092",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 75903.29,
+    "active": true,
+    "updated_at": "2025-10-19T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0093",
+    "name": "Helix Monitor 093",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 45573.9,
+    "active": true,
+    "updated_at": "2025-08-26T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0094",
+    "name": "Nimbus Networking 094",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 43056.98,
+    "active": true,
+    "updated_at": "2025-06-20T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0095",
+    "name": "Orion Networking 095",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 12023.65,
+    "active": true,
+    "updated_at": "2025-02-02T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0096",
+    "name": "Vertex Networking 096",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 6479.16,
+    "active": true,
+    "updated_at": "2025-10-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0097",
+    "name": "Vertex Phone 097",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 14871.81,
+    "active": true,
+    "updated_at": "2024-09-25T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0098",
+    "name": "Pioneer Networking 098",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 79020.41,
+    "active": true,
+    "updated_at": "2025-11-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0099",
+    "name": "Nimbus Storage 099",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 19031.02,
+    "active": true,
+    "updated_at": "2025-07-22T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0100",
+    "name": "Pioneer Storage 100",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 45342.56,
+    "active": false,
+    "updated_at": "2025-01-24T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0101",
+    "name": "Pioneer Monitor 101",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 14612.66,
+    "active": true,
+    "updated_at": "2024-03-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0102",
+    "name": "Helix Networking 102",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 50143.28,
+    "active": true,
+    "updated_at": "2024-08-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0103",
+    "name": "Nova Laptop 103",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 48463.05,
+    "active": true,
+    "updated_at": "2024-01-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0104",
+    "name": "Vertex Laptop 104",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 11835.74,
+    "active": true,
+    "updated_at": "2025-08-08T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0105",
+    "name": "Aster Phone 105",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 56448.99,
+    "active": true,
+    "updated_at": "2024-03-07T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0106",
+    "name": "Aster Networking 106",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 68223.13,
+    "active": true,
+    "updated_at": "2025-11-26T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0107",
+    "name": "Nimbus Accessory 107",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 8740.43,
+    "active": true,
+    "updated_at": "2024-07-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0108",
+    "name": "Nova Tablet 108",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 71865.45,
+    "active": true,
+    "updated_at": "2025-12-09T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0109",
+    "name": "Zenith Accessory 109",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 57762.92,
+    "active": true,
+    "updated_at": "2024-08-22T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0110",
+    "name": "Helix Accessory 110",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 20157.1,
+    "active": true,
+    "updated_at": "2025-07-18T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0111",
+    "name": "Pioneer Storage 111",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 6244.13,
+    "active": true,
+    "updated_at": "2025-04-12T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0112",
+    "name": "Orion Networking 112",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 72089.99,
+    "active": true,
+    "updated_at": "2025-08-16T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0113",
+    "name": "Aster Phone 113",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 71216.87,
+    "active": true,
+    "updated_at": "2025-08-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0114",
+    "name": "Pioneer Accessory 114",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 53246.86,
+    "active": true,
+    "updated_at": "2026-01-08T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0115",
+    "name": "Zenith Audio 115",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 27182.01,
+    "active": true,
+    "updated_at": "2024-08-22T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0116",
+    "name": "Nimbus Laptop 116",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 20443.28,
+    "active": true,
+    "updated_at": "2024-02-29T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0117",
+    "name": "Aster Networking 117",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 27934.41,
+    "active": true,
+    "updated_at": "2024-02-07T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0118",
+    "name": "Zenith Networking 118",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 44312.94,
+    "active": true,
+    "updated_at": "2024-11-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0119",
+    "name": "Helix Laptop 119",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 52861.96,
+    "active": true,
+    "updated_at": "2026-01-12T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0120",
+    "name": "Orion Tablet 120",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 12754.97,
+    "active": true,
+    "updated_at": "2024-07-26T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0121",
+    "name": "Nimbus Storage 121",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 72296.49,
+    "active": true,
+    "updated_at": "2024-08-18T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0122",
+    "name": "Pioneer Monitor 122",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 25881.51,
+    "active": true,
+    "updated_at": "2025-10-11T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0123",
+    "name": "Helix Networking 123",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 70265.32,
+    "active": true,
+    "updated_at": "2025-05-15T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0124",
+    "name": "Orion Monitor 124",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 20562.12,
+    "active": true,
+    "updated_at": "2025-01-27T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0125",
+    "name": "Orion Audio 125",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 2141.49,
+    "active": true,
+    "updated_at": "2025-11-05T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0126",
+    "name": "Vertex Storage 126",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 71314.36,
+    "active": true,
+    "updated_at": "2024-02-07T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0127",
+    "name": "Zenith Accessory 127",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 5978.39,
+    "active": true,
+    "updated_at": "2025-03-30T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0128",
+    "name": "Zenith Monitor 128",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 86186.13,
+    "active": true,
+    "updated_at": "2024-07-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0129",
+    "name": "Aster Monitor 129",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 77576.92,
+    "active": true,
+    "updated_at": "2024-12-07T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0130",
+    "name": "Orion Laptop 130",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 58821.5,
+    "active": true,
+    "updated_at": "2025-04-23T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0131",
+    "name": "Aster Audio 131",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 55521.08,
+    "active": true,
+    "updated_at": "2024-07-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0132",
+    "name": "Pioneer Tablet 132",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 32709.79,
+    "active": true,
+    "updated_at": "2025-12-16T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0133",
+    "name": "Orion Storage 133",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 15995.57,
+    "active": false,
+    "updated_at": "2025-04-18T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0134",
+    "name": "Vertex Accessory 134",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 86753.32,
+    "active": true,
+    "updated_at": "2025-10-31T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0135",
+    "name": "Pioneer Tablet 135",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 37913.64,
+    "active": true,
+    "updated_at": "2025-02-12T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0136",
+    "name": "Aster Phone 136",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 70676.91,
+    "active": true,
+    "updated_at": "2025-10-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0137",
+    "name": "Pioneer Networking 137",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 79820.6,
+    "active": true,
+    "updated_at": "2024-01-06T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0138",
+    "name": "Helix Laptop 138",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 4494.27,
+    "active": true,
+    "updated_at": "2024-01-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0139",
+    "name": "Helix Audio 139",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 19181.94,
+    "active": true,
+    "updated_at": "2026-01-13T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0140",
+    "name": "Orion Tablet 140",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 86122.85,
+    "active": true,
+    "updated_at": "2024-12-03T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0141",
+    "name": "Helix Storage 141",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 8020.56,
+    "active": true,
+    "updated_at": "2024-09-20T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0142",
+    "name": "Helix Accessory 142",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 4181.74,
+    "active": true,
+    "updated_at": "2026-01-15T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0143",
+    "name": "Nimbus Phone 143",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 86109.23,
+    "active": true,
+    "updated_at": "2024-09-24T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0144",
+    "name": "Pioneer Audio 144",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 24373.2,
+    "active": true,
+    "updated_at": "2024-09-25T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0145",
+    "name": "Helix Laptop 145",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 7603.15,
+    "active": true,
+    "updated_at": "2024-05-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0146",
+    "name": "Helix Audio 146",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 5842.35,
+    "active": true,
+    "updated_at": "2024-11-11T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0147",
+    "name": "Vertex Phone 147",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 38556.27,
+    "active": true,
+    "updated_at": "2024-11-06T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0148",
+    "name": "Orion Phone 148",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 39138.89,
+    "active": true,
+    "updated_at": "2024-03-13T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0149",
+    "name": "Orion Accessory 149",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 36553.76,
+    "active": true,
+    "updated_at": "2024-07-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0150",
+    "name": "Aster Storage 150",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 30072.55,
+    "active": true,
+    "updated_at": "2024-10-05T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0151",
+    "name": "Helix Audio 151",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 11019.69,
+    "active": true,
+    "updated_at": "2024-01-07T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0152",
+    "name": "Helix Networking 152",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 55912.67,
+    "active": true,
+    "updated_at": "2026-04-18T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0153",
+    "name": "Nova Tablet 153",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 85173.41,
+    "active": true,
+    "updated_at": "2024-07-20T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0154",
+    "name": "Pioneer Phone 154",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 77548.97,
+    "active": true,
+    "updated_at": "2024-12-14T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0155",
+    "name": "Nova Laptop 155",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 58156.86,
+    "active": true,
+    "updated_at": "2025-04-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0156",
+    "name": "Nova Networking 156",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 77342.38,
+    "active": true,
+    "updated_at": "2024-06-28T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0157",
+    "name": "Vertex Storage 157",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 73966.49,
+    "active": false,
+    "updated_at": "2024-03-05T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0158",
+    "name": "Nova Laptop 158",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 23057.76,
+    "active": true,
+    "updated_at": "2025-07-23T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0159",
+    "name": "Pioneer Tablet 159",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 72796.8,
+    "active": true,
+    "updated_at": "2025-10-05T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0160",
+    "name": "Zenith Audio 160",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 22449.87,
+    "active": false,
+    "updated_at": "2026-01-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0161",
+    "name": "Aster Phone 161",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 24664.23,
+    "active": true,
+    "updated_at": "2025-05-31T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0162",
+    "name": "Aster Tablet 162",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 19462.32,
+    "active": true,
+    "updated_at": "2025-10-08T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0163",
+    "name": "Orion Audio 163",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 81419.75,
+    "active": true,
+    "updated_at": "2026-01-11T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0164",
+    "name": "Nimbus Networking 164",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 53800.39,
+    "active": true,
+    "updated_at": "2026-04-27T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0165",
+    "name": "Vertex Storage 165",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 31631.99,
+    "active": true,
+    "updated_at": "2025-05-09T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0166",
+    "name": "Vertex Phone 166",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 27274.44,
+    "active": true,
+    "updated_at": "2025-08-11T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0167",
+    "name": "Nimbus Networking 167",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 6766.34,
+    "active": true,
+    "updated_at": "2025-06-13T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0168",
+    "name": "Helix Monitor 168",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 10039.87,
+    "active": true,
+    "updated_at": "2025-09-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0169",
+    "name": "Vertex Phone 169",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 17712.31,
+    "active": true,
+    "updated_at": "2025-11-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0170",
+    "name": "Aster Storage 170",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 49207.68,
+    "active": true,
+    "updated_at": "2024-06-28T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0171",
+    "name": "Orion Phone 171",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 11378.74,
+    "active": true,
+    "updated_at": "2024-03-02T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0172",
+    "name": "Vertex Audio 172",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 70418.1,
+    "active": true,
+    "updated_at": "2026-04-11T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0173",
+    "name": "Aster Accessory 173",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 86089.35,
+    "active": true,
+    "updated_at": "2024-08-24T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0174",
+    "name": "Aster Phone 174",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 47960.4,
+    "active": true,
+    "updated_at": "2024-07-18T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0175",
+    "name": "Pioneer Audio 175",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 71604.13,
+    "active": true,
+    "updated_at": "2024-07-02T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0176",
+    "name": "Aster Laptop 176",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 36182.16,
+    "active": true,
+    "updated_at": "2024-05-30T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0177",
+    "name": "Zenith Phone 177",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 71207.61,
+    "active": true,
+    "updated_at": "2024-08-07T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0178",
+    "name": "Vertex Networking 178",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 44316.49,
+    "active": false,
+    "updated_at": "2024-01-27T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0179",
+    "name": "Nova Networking 179",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 49133.18,
+    "active": true,
+    "updated_at": "2025-10-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0180",
+    "name": "Nimbus Tablet 180",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 80463.88,
+    "active": true,
+    "updated_at": "2025-03-13T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0181",
+    "name": "Orion Networking 181",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 61446.72,
+    "active": true,
+    "updated_at": "2024-09-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0182",
+    "name": "Helix Networking 182",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 2557.58,
+    "active": true,
+    "updated_at": "2026-01-19T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0183",
+    "name": "Orion Monitor 183",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 13031.76,
+    "active": true,
+    "updated_at": "2024-07-25T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0184",
+    "name": "Vertex Accessory 184",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 70782.8,
+    "active": true,
+    "updated_at": "2024-04-30T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0185",
+    "name": "Zenith Accessory 185",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 68131.89,
+    "active": true,
+    "updated_at": "2024-11-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0186",
+    "name": "Pioneer Networking 186",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 19707.94,
+    "active": true,
+    "updated_at": "2025-05-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0187",
+    "name": "Pioneer Audio 187",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 60875.92,
+    "active": true,
+    "updated_at": "2024-06-03T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0188",
+    "name": "Nova Audio 188",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 8296.15,
+    "active": true,
+    "updated_at": "2024-05-09T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0189",
+    "name": "Nova Networking 189",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 64797.84,
+    "active": true,
+    "updated_at": "2025-06-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0190",
+    "name": "Nimbus Networking 190",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 27131.31,
+    "active": true,
+    "updated_at": "2025-12-25T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0191",
+    "name": "Helix Tablet 191",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 51738.56,
+    "active": true,
+    "updated_at": "2024-02-27T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0192",
+    "name": "Nimbus Laptop 192",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 1564.55,
+    "active": true,
+    "updated_at": "2025-01-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0193",
+    "name": "Aster Accessory 193",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 377.03,
+    "active": true,
+    "updated_at": "2024-05-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0194",
+    "name": "Nova Monitor 194",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 46283.12,
+    "active": true,
+    "updated_at": "2026-03-03T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0195",
+    "name": "Orion Accessory 195",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 73001.33,
+    "active": true,
+    "updated_at": "2024-02-28T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0196",
+    "name": "Nova Storage 196",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 50767.45,
+    "active": true,
+    "updated_at": "2025-05-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0197",
+    "name": "Orion Monitor 197",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 21025.92,
+    "active": true,
+    "updated_at": "2025-09-22T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0198",
+    "name": "Nimbus Monitor 198",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 65808.84,
+    "active": true,
+    "updated_at": "2024-11-18T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0199",
+    "name": "Aster Tablet 199",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 43002.58,
+    "active": true,
+    "updated_at": "2025-06-11T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0200",
+    "name": "Pioneer Monitor 200",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 80034.37,
+    "active": true,
+    "updated_at": "2024-06-05T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0201",
+    "name": "Helix Laptop 201",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 83728.12,
+    "active": true,
+    "updated_at": "2026-01-23T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0202",
+    "name": "Vertex Networking 202",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 24977.16,
+    "active": true,
+    "updated_at": "2024-09-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0203",
+    "name": "Pioneer Storage 203",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 74853.28,
+    "active": true,
+    "updated_at": "2025-12-23T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0204",
+    "name": "Orion Networking 204",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 71742.39,
+    "active": true,
+    "updated_at": "2026-02-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0205",
+    "name": "Orion Networking 205",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 21020.38,
+    "active": true,
+    "updated_at": "2024-11-12T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0206",
+    "name": "Zenith Networking 206",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 38120.18,
+    "active": true,
+    "updated_at": "2024-02-15T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0207",
+    "name": "Aster Monitor 207",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 24262.67,
+    "active": true,
+    "updated_at": "2025-04-09T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0208",
+    "name": "Zenith Laptop 208",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 24331.11,
+    "active": true,
+    "updated_at": "2024-02-26T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0209",
+    "name": "Nimbus Monitor 209",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 3217.97,
+    "active": true,
+    "updated_at": "2025-11-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0210",
+    "name": "Nimbus Phone 210",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 78231.4,
+    "active": true,
+    "updated_at": "2025-09-11T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0211",
+    "name": "Pioneer Accessory 211",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 43309.6,
+    "active": true,
+    "updated_at": "2024-02-08T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0212",
+    "name": "Aster Laptop 212",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 25422.78,
+    "active": true,
+    "updated_at": "2025-02-24T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0213",
+    "name": "Pioneer Accessory 213",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 75044.88,
+    "active": true,
+    "updated_at": "2026-02-26T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0214",
+    "name": "Aster Audio 214",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 25806.6,
+    "active": true,
+    "updated_at": "2025-10-24T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0215",
+    "name": "Vertex Audio 215",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 66910.12,
+    "active": false,
+    "updated_at": "2024-09-06T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0216",
+    "name": "Helix Storage 216",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 82079.9,
+    "active": true,
+    "updated_at": "2024-08-05T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0217",
+    "name": "Aster Laptop 217",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 8132.52,
+    "active": true,
+    "updated_at": "2026-02-18T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0218",
+    "name": "Vertex Storage 218",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 46687.34,
+    "active": true,
+    "updated_at": "2026-03-05T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0219",
+    "name": "Helix Phone 219",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 17529.68,
+    "active": true,
+    "updated_at": "2025-09-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0220",
+    "name": "Aster Storage 220",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 33400.04,
+    "active": true,
+    "updated_at": "2025-01-08T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0221",
+    "name": "Vertex Phone 221",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 16930.57,
+    "active": true,
+    "updated_at": "2024-07-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0222",
+    "name": "Nova Monitor 222",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 25358.22,
+    "active": true,
+    "updated_at": "2025-04-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0223",
+    "name": "Zenith Phone 223",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 29111.74,
+    "active": true,
+    "updated_at": "2024-06-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0224",
+    "name": "Orion Phone 224",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 83402.6,
+    "active": true,
+    "updated_at": "2024-01-18T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0225",
+    "name": "Vertex Networking 225",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 43720.81,
+    "active": true,
+    "updated_at": "2024-12-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0226",
+    "name": "Orion Laptop 226",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 89537.04,
+    "active": true,
+    "updated_at": "2024-08-15T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0227",
+    "name": "Zenith Laptop 227",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 50931.98,
+    "active": true,
+    "updated_at": "2024-05-31T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0228",
+    "name": "Nimbus Phone 228",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 80003.14,
+    "active": true,
+    "updated_at": "2024-04-27T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0229",
+    "name": "Zenith Tablet 229",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 49361.2,
+    "active": true,
+    "updated_at": "2025-07-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0230",
+    "name": "Pioneer Tablet 230",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 69244.0,
+    "active": true,
+    "updated_at": "2025-08-18T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0231",
+    "name": "Pioneer Networking 231",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 37401.27,
+    "active": true,
+    "updated_at": "2024-10-22T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0232",
+    "name": "Pioneer Networking 232",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 16068.91,
+    "active": true,
+    "updated_at": "2025-08-25T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0233",
+    "name": "Nimbus Accessory 233",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 85736.43,
+    "active": true,
+    "updated_at": "2025-12-05T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0234",
+    "name": "Vertex Tablet 234",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 85883.96,
+    "active": true,
+    "updated_at": "2025-01-06T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0235",
+    "name": "Nova Monitor 235",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 13903.28,
+    "active": true,
+    "updated_at": "2024-10-30T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0236",
+    "name": "Nimbus Phone 236",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 15010.49,
+    "active": true,
+    "updated_at": "2024-04-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0237",
+    "name": "Helix Accessory 237",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 44463.32,
+    "active": true,
+    "updated_at": "2024-09-30T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0238",
+    "name": "Aster Tablet 238",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 54956.11,
+    "active": true,
+    "updated_at": "2026-03-23T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0239",
+    "name": "Pioneer Monitor 239",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 67525.62,
+    "active": true,
+    "updated_at": "2024-03-08T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0240",
+    "name": "Aster Phone 240",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 17320.35,
+    "active": true,
+    "updated_at": "2024-11-24T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0241",
+    "name": "Pioneer Networking 241",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 6477.71,
+    "active": true,
+    "updated_at": "2024-10-08T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0242",
+    "name": "Orion Audio 242",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 76493.62,
+    "active": true,
+    "updated_at": "2024-10-12T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0243",
+    "name": "Pioneer Accessory 243",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 22764.33,
+    "active": true,
+    "updated_at": "2024-06-18T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0244",
+    "name": "Nova Laptop 244",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 70889.4,
+    "active": true,
+    "updated_at": "2025-06-07T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0245",
+    "name": "Nimbus Accessory 245",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 34088.86,
+    "active": true,
+    "updated_at": "2024-10-08T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0246",
+    "name": "Aster Laptop 246",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 28416.14,
+    "active": true,
+    "updated_at": "2026-02-26T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0247",
+    "name": "Helix Laptop 247",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 89261.34,
+    "active": true,
+    "updated_at": "2025-09-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0248",
+    "name": "Nova Tablet 248",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 79150.87,
+    "active": false,
+    "updated_at": "2024-11-15T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0249",
+    "name": "Aster Storage 249",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 8739.01,
+    "active": true,
+    "updated_at": "2025-12-02T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0250",
+    "name": "Helix Laptop 250",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 65583.14,
+    "active": true,
+    "updated_at": "2026-04-14T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0251",
+    "name": "Helix Networking 251",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 60660.68,
+    "active": true,
+    "updated_at": "2026-04-12T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0252",
+    "name": "Vertex Laptop 252",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 17880.75,
+    "active": true,
+    "updated_at": "2025-06-15T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0253",
+    "name": "Vertex Laptop 253",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 9223.53,
+    "active": true,
+    "updated_at": "2025-01-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0254",
+    "name": "Pioneer Networking 254",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 9804.26,
+    "active": false,
+    "updated_at": "2024-12-19T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0255",
+    "name": "Helix Accessory 255",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 76757.65,
+    "active": true,
+    "updated_at": "2024-11-28T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0256",
+    "name": "Aster Tablet 256",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 68958.33,
+    "active": true,
+    "updated_at": "2024-07-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0257",
+    "name": "Orion Laptop 257",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 36267.98,
+    "active": true,
+    "updated_at": "2025-10-07T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0258",
+    "name": "Aster Storage 258",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 57049.13,
+    "active": true,
+    "updated_at": "2025-06-12T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0259",
+    "name": "Zenith Storage 259",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 36630.77,
+    "active": true,
+    "updated_at": "2025-01-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0260",
+    "name": "Nimbus Accessory 260",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 16466.32,
+    "active": true,
+    "updated_at": "2024-06-11T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0261",
+    "name": "Zenith Audio 261",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 80174.88,
+    "active": true,
+    "updated_at": "2025-06-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0262",
+    "name": "Pioneer Accessory 262",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 43872.24,
+    "active": true,
+    "updated_at": "2026-04-12T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0263",
+    "name": "Aster Audio 263",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 71306.66,
+    "active": true,
+    "updated_at": "2025-07-16T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0264",
+    "name": "Vertex Accessory 264",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 73843.84,
+    "active": false,
+    "updated_at": "2025-01-31T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0265",
+    "name": "Nimbus Phone 265",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 57069.88,
+    "active": true,
+    "updated_at": "2024-11-25T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0266",
+    "name": "Nimbus Audio 266",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 35205.27,
+    "active": true,
+    "updated_at": "2025-04-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0267",
+    "name": "Aster Monitor 267",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 39303.96,
+    "active": true,
+    "updated_at": "2024-10-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0268",
+    "name": "Orion Accessory 268",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 89071.05,
+    "active": true,
+    "updated_at": "2025-10-26T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0269",
+    "name": "Orion Storage 269",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 17075.89,
+    "active": true,
+    "updated_at": "2025-02-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0270",
+    "name": "Nimbus Networking 270",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 29597.93,
+    "active": true,
+    "updated_at": "2025-04-16T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0271",
+    "name": "Helix Networking 271",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 65786.22,
+    "active": true,
+    "updated_at": "2024-07-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0272",
+    "name": "Nimbus Laptop 272",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 45374.87,
+    "active": true,
+    "updated_at": "2024-02-24T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0273",
+    "name": "Nimbus Monitor 273",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 50778.28,
+    "active": true,
+    "updated_at": "2026-03-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0274",
+    "name": "Orion Storage 274",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 41566.8,
+    "active": true,
+    "updated_at": "2024-03-15T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0275",
+    "name": "Zenith Tablet 275",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 58180.64,
+    "active": true,
+    "updated_at": "2025-11-11T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0276",
+    "name": "Aster Networking 276",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 53858.21,
+    "active": true,
+    "updated_at": "2026-02-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0277",
+    "name": "Pioneer Networking 277",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 9166.45,
+    "active": true,
+    "updated_at": "2025-08-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0278",
+    "name": "Nimbus Phone 278",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 70675.37,
+    "active": true,
+    "updated_at": "2025-10-13T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0279",
+    "name": "Vertex Phone 279",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 21152.13,
+    "active": true,
+    "updated_at": "2026-02-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0280",
+    "name": "Helix Phone 280",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 15221.58,
+    "active": true,
+    "updated_at": "2026-01-18T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0281",
+    "name": "Zenith Laptop 281",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 42391.82,
+    "active": true,
+    "updated_at": "2025-02-25T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0282",
+    "name": "Nova Accessory 282",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 48696.2,
+    "active": true,
+    "updated_at": "2025-08-19T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0283",
+    "name": "Helix Storage 283",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 39076.51,
+    "active": true,
+    "updated_at": "2025-08-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0284",
+    "name": "Nova Audio 284",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 39525.56,
+    "active": true,
+    "updated_at": "2024-05-05T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0285",
+    "name": "Aster Networking 285",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 64779.6,
+    "active": true,
+    "updated_at": "2024-10-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0286",
+    "name": "Zenith Phone 286",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 24801.38,
+    "active": true,
+    "updated_at": "2025-06-08T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0287",
+    "name": "Nova Accessory 287",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 29113.31,
+    "active": true,
+    "updated_at": "2026-03-23T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0288",
+    "name": "Helix Accessory 288",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 58232.16,
+    "active": true,
+    "updated_at": "2024-01-19T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0289",
+    "name": "Zenith Accessory 289",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 29937.24,
+    "active": true,
+    "updated_at": "2025-04-24T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0290",
+    "name": "Orion Monitor 290",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 84471.94,
+    "active": true,
+    "updated_at": "2024-09-12T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0291",
+    "name": "Aster Audio 291",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 25096.1,
+    "active": true,
+    "updated_at": "2025-08-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0292",
+    "name": "Vertex Accessory 292",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 41637.3,
+    "active": false,
+    "updated_at": "2024-11-20T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0293",
+    "name": "Zenith Laptop 293",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 2493.32,
+    "active": true,
+    "updated_at": "2025-06-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0294",
+    "name": "Orion Laptop 294",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 64326.21,
+    "active": true,
+    "updated_at": "2025-10-06T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0295",
+    "name": "Vertex Accessory 295",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 58450.82,
+    "active": true,
+    "updated_at": "2024-02-28T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0296",
+    "name": "Helix Laptop 296",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 15773.09,
+    "active": true,
+    "updated_at": "2025-04-28T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0297",
+    "name": "Zenith Networking 297",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 36507.9,
+    "active": true,
+    "updated_at": "2024-01-05T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0298",
+    "name": "Orion Phone 298",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 59536.23,
+    "active": false,
+    "updated_at": "2025-12-29T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0299",
+    "name": "Orion Phone 299",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 12578.41,
+    "active": true,
+    "updated_at": "2026-02-23T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0300",
+    "name": "Nova Tablet 300",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 41816.96,
+    "active": true,
+    "updated_at": "2024-03-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0301",
+    "name": "Helix Accessory 301",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 50798.69,
+    "active": true,
+    "updated_at": "2024-10-12T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0302",
+    "name": "Zenith Laptop 302",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 79460.58,
+    "active": true,
+    "updated_at": "2025-01-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0303",
+    "name": "Nimbus Laptop 303",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 62217.86,
+    "active": true,
+    "updated_at": "2025-02-09T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0304",
+    "name": "Aster Storage 304",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 55494.83,
+    "active": true,
+    "updated_at": "2024-03-14T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0305",
+    "name": "Nova Networking 305",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 25494.69,
+    "active": true,
+    "updated_at": "2024-04-26T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0306",
+    "name": "Vertex Laptop 306",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 20504.76,
+    "active": true,
+    "updated_at": "2025-02-05T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0307",
+    "name": "Pioneer Laptop 307",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 74775.57,
+    "active": true,
+    "updated_at": "2024-07-22T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0308",
+    "name": "Aster Accessory 308",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 11197.74,
+    "active": true,
+    "updated_at": "2026-03-03T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0309",
+    "name": "Vertex Monitor 309",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 42656.23,
+    "active": true,
+    "updated_at": "2025-07-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0310",
+    "name": "Nimbus Monitor 310",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 35928.91,
+    "active": true,
+    "updated_at": "2025-06-06T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0311",
+    "name": "Pioneer Tablet 311",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 59966.53,
+    "active": true,
+    "updated_at": "2025-04-14T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0312",
+    "name": "Nimbus Phone 312",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 49308.75,
+    "active": true,
+    "updated_at": "2026-02-25T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0313",
+    "name": "Pioneer Storage 313",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 4389.38,
+    "active": false,
+    "updated_at": "2024-12-26T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0314",
+    "name": "Orion Tablet 314",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 61051.95,
+    "active": true,
+    "updated_at": "2025-01-29T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0315",
+    "name": "Vertex Phone 315",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 50285.88,
+    "active": true,
+    "updated_at": "2025-12-31T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0316",
+    "name": "Nimbus Laptop 316",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 89926.78,
+    "active": true,
+    "updated_at": "2026-01-05T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0317",
+    "name": "Helix Monitor 317",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 57146.44,
+    "active": true,
+    "updated_at": "2025-10-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0318",
+    "name": "Nimbus Monitor 318",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 26681.18,
+    "active": true,
+    "updated_at": "2025-04-24T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0319",
+    "name": "Vertex Accessory 319",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 89212.6,
+    "active": true,
+    "updated_at": "2026-01-29T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0320",
+    "name": "Zenith Laptop 320",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 44220.92,
+    "active": true,
+    "updated_at": "2024-11-13T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0321",
+    "name": "Helix Storage 321",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 86572.35,
+    "active": true,
+    "updated_at": "2025-11-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0322",
+    "name": "Pioneer Accessory 322",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 43814.63,
+    "active": true,
+    "updated_at": "2025-04-13T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0323",
+    "name": "Pioneer Monitor 323",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 10488.44,
+    "active": true,
+    "updated_at": "2025-12-12T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0324",
+    "name": "Vertex Tablet 324",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 3424.16,
+    "active": true,
+    "updated_at": "2025-12-31T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0325",
+    "name": "Helix Networking 325",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 64428.61,
+    "active": true,
+    "updated_at": "2026-02-08T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0326",
+    "name": "Zenith Networking 326",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 36667.55,
+    "active": true,
+    "updated_at": "2024-04-19T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0327",
+    "name": "Vertex Storage 327",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 8627.76,
+    "active": true,
+    "updated_at": "2024-01-27T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0328",
+    "name": "Vertex Storage 328",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 34387.3,
+    "active": true,
+    "updated_at": "2024-03-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0329",
+    "name": "Orion Phone 329",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 38003.83,
+    "active": true,
+    "updated_at": "2025-11-07T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0330",
+    "name": "Nimbus Accessory 330",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 71325.1,
+    "active": true,
+    "updated_at": "2025-07-25T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0331",
+    "name": "Orion Storage 331",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 58553.68,
+    "active": true,
+    "updated_at": "2024-03-20T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0332",
+    "name": "Pioneer Tablet 332",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 20083.93,
+    "active": true,
+    "updated_at": "2024-06-28T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0333",
+    "name": "Pioneer Monitor 333",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 23586.84,
+    "active": true,
+    "updated_at": "2024-09-09T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0334",
+    "name": "Pioneer Networking 334",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 86548.85,
+    "active": true,
+    "updated_at": "2025-07-27T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0335",
+    "name": "Orion Audio 335",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 70362.27,
+    "active": false,
+    "updated_at": "2025-05-05T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0336",
+    "name": "Helix Networking 336",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 88153.03,
+    "active": true,
+    "updated_at": "2024-09-25T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0337",
+    "name": "Vertex Audio 337",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 12055.69,
+    "active": true,
+    "updated_at": "2025-02-16T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0338",
+    "name": "Orion Laptop 338",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 18858.74,
+    "active": true,
+    "updated_at": "2026-02-02T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0339",
+    "name": "Nova Accessory 339",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 66565.59,
+    "active": true,
+    "updated_at": "2024-03-16T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0340",
+    "name": "Helix Phone 340",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 60718.41,
+    "active": true,
+    "updated_at": "2026-03-02T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0341",
+    "name": "Nimbus Laptop 341",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 36426.5,
+    "active": true,
+    "updated_at": "2025-10-08T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0342",
+    "name": "Aster Laptop 342",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 72604.07,
+    "active": true,
+    "updated_at": "2024-12-18T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0343",
+    "name": "Orion Networking 343",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 26854.39,
+    "active": true,
+    "updated_at": "2024-08-24T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0344",
+    "name": "Aster Accessory 344",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 2785.93,
+    "active": true,
+    "updated_at": "2024-05-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0345",
+    "name": "Nova Tablet 345",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 73154.7,
+    "active": true,
+    "updated_at": "2025-10-23T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0346",
+    "name": "Orion Audio 346",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 79176.02,
+    "active": true,
+    "updated_at": "2025-10-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0347",
+    "name": "Vertex Storage 347",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 79622.52,
+    "active": false,
+    "updated_at": "2025-08-06T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0348",
+    "name": "Aster Audio 348",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 44374.34,
+    "active": true,
+    "updated_at": "2024-01-14T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0349",
+    "name": "Aster Accessory 349",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 3256.87,
+    "active": true,
+    "updated_at": "2024-07-15T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0350",
+    "name": "Nimbus Tablet 350",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 19483.34,
+    "active": true,
+    "updated_at": "2024-10-20T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0351",
+    "name": "Nova Accessory 351",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 55125.73,
+    "active": true,
+    "updated_at": "2025-10-26T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0352",
+    "name": "Pioneer Laptop 352",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 17257.63,
+    "active": true,
+    "updated_at": "2025-06-23T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0353",
+    "name": "Aster Monitor 353",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 37022.84,
+    "active": true,
+    "updated_at": "2024-10-11T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0354",
+    "name": "Zenith Tablet 354",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 22506.86,
+    "active": true,
+    "updated_at": "2025-11-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0355",
+    "name": "Pioneer Laptop 355",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 11475.26,
+    "active": true,
+    "updated_at": "2024-05-09T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0356",
+    "name": "Zenith Laptop 356",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 37027.48,
+    "active": true,
+    "updated_at": "2024-04-05T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0357",
+    "name": "Nova Storage 357",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 39714.07,
+    "active": true,
+    "updated_at": "2025-10-20T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0358",
+    "name": "Aster Laptop 358",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 34120.87,
+    "active": true,
+    "updated_at": "2025-12-30T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0359",
+    "name": "Nimbus Networking 359",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 19991.09,
+    "active": false,
+    "updated_at": "2025-09-06T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0360",
+    "name": "Orion Audio 360",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 89523.6,
+    "active": true,
+    "updated_at": "2024-09-29T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0361",
+    "name": "Helix Accessory 361",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 43456.93,
+    "active": true,
+    "updated_at": "2024-12-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0362",
+    "name": "Pioneer Tablet 362",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 7968.21,
+    "active": false,
+    "updated_at": "2024-06-25T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0363",
+    "name": "Nova Accessory 363",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 2522.92,
+    "active": true,
+    "updated_at": "2025-05-18T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0364",
+    "name": "Helix Laptop 364",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 51326.98,
+    "active": true,
+    "updated_at": "2025-03-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0365",
+    "name": "Nimbus Laptop 365",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 87120.69,
+    "active": true,
+    "updated_at": "2025-08-31T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0366",
+    "name": "Aster Phone 366",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 34213.13,
+    "active": true,
+    "updated_at": "2025-05-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0367",
+    "name": "Orion Storage 367",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 16904.57,
+    "active": true,
+    "updated_at": "2024-02-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0368",
+    "name": "Vertex Monitor 368",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 5851.75,
+    "active": true,
+    "updated_at": "2025-04-13T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0369",
+    "name": "Vertex Storage 369",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 15848.66,
+    "active": false,
+    "updated_at": "2025-04-07T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0370",
+    "name": "Nova Networking 370",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 13599.21,
+    "active": true,
+    "updated_at": "2024-10-19T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0371",
+    "name": "Pioneer Networking 371",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 2126.94,
+    "active": true,
+    "updated_at": "2024-05-08T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0372",
+    "name": "Vertex Networking 372",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 15373.68,
+    "active": true,
+    "updated_at": "2024-06-06T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0373",
+    "name": "Aster Storage 373",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 53916.4,
+    "active": true,
+    "updated_at": "2025-01-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0374",
+    "name": "Orion Phone 374",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 20830.38,
+    "active": true,
+    "updated_at": "2024-08-25T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0375",
+    "name": "Pioneer Tablet 375",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 79231.07,
+    "active": true,
+    "updated_at": "2024-02-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0376",
+    "name": "Pioneer Networking 376",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 65552.7,
+    "active": true,
+    "updated_at": "2025-05-20T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0377",
+    "name": "Helix Monitor 377",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 64363.13,
+    "active": true,
+    "updated_at": "2025-08-31T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0378",
+    "name": "Pioneer Phone 378",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 65788.09,
+    "active": true,
+    "updated_at": "2025-06-22T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0379",
+    "name": "Aster Accessory 379",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 75976.47,
+    "active": true,
+    "updated_at": "2024-02-29T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0380",
+    "name": "Nova Audio 380",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 40150.81,
+    "active": true,
+    "updated_at": "2025-05-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0381",
+    "name": "Nova Phone 381",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 32252.06,
+    "active": true,
+    "updated_at": "2024-01-14T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0382",
+    "name": "Nimbus Phone 382",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 61369.12,
+    "active": true,
+    "updated_at": "2025-08-15T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0383",
+    "name": "Orion Monitor 383",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 79854.28,
+    "active": true,
+    "updated_at": "2025-09-14T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0384",
+    "name": "Zenith Networking 384",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 24159.43,
+    "active": true,
+    "updated_at": "2025-05-30T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0385",
+    "name": "Pioneer Accessory 385",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 64019.67,
+    "active": true,
+    "updated_at": "2024-04-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0386",
+    "name": "Orion Storage 386",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 49965.75,
+    "active": true,
+    "updated_at": "2024-02-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0387",
+    "name": "Vertex Laptop 387",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 76857.93,
+    "active": true,
+    "updated_at": "2024-03-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0388",
+    "name": "Nimbus Monitor 388",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 523.08,
+    "active": true,
+    "updated_at": "2026-04-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0389",
+    "name": "Pioneer Laptop 389",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 69949.12,
+    "active": true,
+    "updated_at": "2024-12-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0390",
+    "name": "Nova Tablet 390",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 72269.41,
+    "active": true,
+    "updated_at": "2025-09-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0391",
+    "name": "Pioneer Accessory 391",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 10973.39,
+    "active": true,
+    "updated_at": "2026-03-29T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0392",
+    "name": "Zenith Audio 392",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 79971.45,
+    "active": true,
+    "updated_at": "2026-04-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0393",
+    "name": "Aster Storage 393",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 54574.99,
+    "active": false,
+    "updated_at": "2025-02-25T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0394",
+    "name": "Helix Audio 394",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 5199.2,
+    "active": true,
+    "updated_at": "2024-08-24T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0395",
+    "name": "Nova Tablet 395",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 33467.86,
+    "active": true,
+    "updated_at": "2024-10-08T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0396",
+    "name": "Zenith Audio 396",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 13178.68,
+    "active": true,
+    "updated_at": "2025-06-26T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0397",
+    "name": "Zenith Laptop 397",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 49652.25,
+    "active": true,
+    "updated_at": "2026-03-06T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0398",
+    "name": "Aster Laptop 398",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 62692.66,
+    "active": true,
+    "updated_at": "2025-07-09T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0399",
+    "name": "Zenith Networking 399",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 46562.84,
+    "active": true,
+    "updated_at": "2026-03-20T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0400",
+    "name": "Vertex Accessory 400",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 48415.01,
+    "active": true,
+    "updated_at": "2025-08-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0401",
+    "name": "Nova Storage 401",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 83937.88,
+    "active": true,
+    "updated_at": "2024-08-16T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0402",
+    "name": "Orion Monitor 402",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 11134.18,
+    "active": true,
+    "updated_at": "2025-02-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0403",
+    "name": "Aster Tablet 403",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 53598.93,
+    "active": true,
+    "updated_at": "2025-09-15T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0404",
+    "name": "Zenith Networking 404",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 53204.73,
+    "active": true,
+    "updated_at": "2026-02-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0405",
+    "name": "Aster Phone 405",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 86383.49,
+    "active": true,
+    "updated_at": "2024-09-02T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0406",
+    "name": "Vertex Networking 406",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 78076.33,
+    "active": true,
+    "updated_at": "2025-05-11T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0407",
+    "name": "Nova Audio 407",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 68471.58,
+    "active": true,
+    "updated_at": "2025-03-30T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0408",
+    "name": "Zenith Networking 408",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 22488.65,
+    "active": true,
+    "updated_at": "2024-01-13T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0409",
+    "name": "Aster Audio 409",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 2368.2,
+    "active": true,
+    "updated_at": "2024-05-08T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0410",
+    "name": "Nova Audio 410",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 26412.35,
+    "active": true,
+    "updated_at": "2025-10-26T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0411",
+    "name": "Aster Storage 411",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 64372.24,
+    "active": true,
+    "updated_at": "2025-10-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0412",
+    "name": "Helix Phone 412",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 10515.9,
+    "active": true,
+    "updated_at": "2025-09-30T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0413",
+    "name": "Vertex Storage 413",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 72388.98,
+    "active": true,
+    "updated_at": "2025-04-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0414",
+    "name": "Helix Phone 414",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 35322.58,
+    "active": true,
+    "updated_at": "2025-05-13T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0415",
+    "name": "Aster Storage 415",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 86401.2,
+    "active": true,
+    "updated_at": "2024-06-12T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0416",
+    "name": "Pioneer Audio 416",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 10026.18,
+    "active": true,
+    "updated_at": "2026-01-15T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0417",
+    "name": "Zenith Laptop 417",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 57523.61,
+    "active": true,
+    "updated_at": "2024-06-29T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0418",
+    "name": "Orion Monitor 418",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 24359.94,
+    "active": true,
+    "updated_at": "2026-01-15T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0419",
+    "name": "Zenith Tablet 419",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 50938.31,
+    "active": true,
+    "updated_at": "2025-10-12T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0420",
+    "name": "Nova Accessory 420",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 80165.3,
+    "active": true,
+    "updated_at": "2025-06-30T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0421",
+    "name": "Nimbus Audio 421",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 53650.53,
+    "active": true,
+    "updated_at": "2025-03-07T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0422",
+    "name": "Aster Tablet 422",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 39917.69,
+    "active": true,
+    "updated_at": "2025-09-09T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0423",
+    "name": "Pioneer Laptop 423",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 7693.08,
+    "active": true,
+    "updated_at": "2025-11-24T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0424",
+    "name": "Aster Networking 424",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 44079.52,
+    "active": true,
+    "updated_at": "2024-11-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0425",
+    "name": "Vertex Audio 425",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 33457.03,
+    "active": true,
+    "updated_at": "2025-01-09T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0426",
+    "name": "Zenith Phone 426",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 69329.23,
+    "active": true,
+    "updated_at": "2025-12-27T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0427",
+    "name": "Helix Networking 427",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 17170.37,
+    "active": false,
+    "updated_at": "2024-04-30T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0428",
+    "name": "Aster Tablet 428",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 83212.52,
+    "active": true,
+    "updated_at": "2024-12-06T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0429",
+    "name": "Vertex Laptop 429",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 160.67,
+    "active": true,
+    "updated_at": "2024-11-06T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0430",
+    "name": "Aster Audio 430",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 38494.55,
+    "active": true,
+    "updated_at": "2024-09-06T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0431",
+    "name": "Vertex Monitor 431",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 56797.47,
+    "active": true,
+    "updated_at": "2025-06-24T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0432",
+    "name": "Aster Monitor 432",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 65461.92,
+    "active": true,
+    "updated_at": "2026-01-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0433",
+    "name": "Pioneer Networking 433",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 74257.42,
+    "active": true,
+    "updated_at": "2024-08-07T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0434",
+    "name": "Pioneer Audio 434",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 59117.45,
+    "active": true,
+    "updated_at": "2026-01-25T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0435",
+    "name": "Aster Laptop 435",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 79090.99,
+    "active": true,
+    "updated_at": "2024-08-22T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0436",
+    "name": "Orion Storage 436",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 70058.7,
+    "active": true,
+    "updated_at": "2025-03-28T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0437",
+    "name": "Orion Laptop 437",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 25890.58,
+    "active": true,
+    "updated_at": "2025-12-25T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0438",
+    "name": "Vertex Audio 438",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 87880.27,
+    "active": true,
+    "updated_at": "2026-01-29T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0439",
+    "name": "Nimbus Monitor 439",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 19389.39,
+    "active": true,
+    "updated_at": "2026-03-13T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0440",
+    "name": "Zenith Phone 440",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 47427.73,
+    "active": true,
+    "updated_at": "2025-11-28T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0441",
+    "name": "Zenith Laptop 441",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 49223.61,
+    "active": true,
+    "updated_at": "2024-10-19T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0442",
+    "name": "Nimbus Accessory 442",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 17818.66,
+    "active": true,
+    "updated_at": "2024-01-07T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0443",
+    "name": "Vertex Accessory 443",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 82138.91,
+    "active": true,
+    "updated_at": "2025-05-27T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0444",
+    "name": "Aster Storage 444",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 81498.76,
+    "active": true,
+    "updated_at": "2024-02-24T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0445",
+    "name": "Orion Accessory 445",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 39763.84,
+    "active": true,
+    "updated_at": "2025-10-13T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0446",
+    "name": "Nimbus Audio 446",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 69338.22,
+    "active": true,
+    "updated_at": "2024-01-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0447",
+    "name": "Helix Accessory 447",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 84776.42,
+    "active": true,
+    "updated_at": "2024-10-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0448",
+    "name": "Helix Audio 448",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 12210.05,
+    "active": true,
+    "updated_at": "2025-04-20T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0449",
+    "name": "Aster Phone 449",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 74373.31,
+    "active": true,
+    "updated_at": "2024-05-11T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0450",
+    "name": "Vertex Audio 450",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 3551.05,
+    "active": true,
+    "updated_at": "2024-04-15T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0451",
+    "name": "Nimbus Audio 451",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 66948.71,
+    "active": true,
+    "updated_at": "2024-05-18T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0452",
+    "name": "Helix Accessory 452",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 1749.79,
+    "active": true,
+    "updated_at": "2025-09-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0453",
+    "name": "Pioneer Storage 453",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 46985.17,
+    "active": true,
+    "updated_at": "2025-09-22T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0454",
+    "name": "Nova Networking 454",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 68631.05,
+    "active": true,
+    "updated_at": "2024-11-13T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0455",
+    "name": "Nimbus Monitor 455",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 344.16,
+    "active": true,
+    "updated_at": "2025-07-27T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0456",
+    "name": "Pioneer Monitor 456",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 74562.87,
+    "active": true,
+    "updated_at": "2024-01-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0457",
+    "name": "Helix Networking 457",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 43161.69,
+    "active": true,
+    "updated_at": "2025-10-15T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0458",
+    "name": "Pioneer Networking 458",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 16343.63,
+    "active": true,
+    "updated_at": "2025-12-11T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0459",
+    "name": "Pioneer Audio 459",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 40470.45,
+    "active": true,
+    "updated_at": "2025-06-05T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0460",
+    "name": "Helix Monitor 460",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 39618.13,
+    "active": true,
+    "updated_at": "2024-10-24T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0461",
+    "name": "Pioneer Audio 461",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 50218.41,
+    "active": true,
+    "updated_at": "2024-04-18T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0462",
+    "name": "Nimbus Tablet 462",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 29050.22,
+    "active": true,
+    "updated_at": "2024-06-22T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0463",
+    "name": "Nimbus Laptop 463",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 8138.45,
+    "active": true,
+    "updated_at": "2025-02-05T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0464",
+    "name": "Nimbus Accessory 464",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 68248.71,
+    "active": true,
+    "updated_at": "2026-04-13T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0465",
+    "name": "Pioneer Accessory 465",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 77428.74,
+    "active": true,
+    "updated_at": "2026-04-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0466",
+    "name": "Nimbus Laptop 466",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 57048.56,
+    "active": true,
+    "updated_at": "2024-09-24T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0467",
+    "name": "Zenith Monitor 467",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 44092.93,
+    "active": true,
+    "updated_at": "2025-10-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0468",
+    "name": "Zenith Accessory 468",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 16204.33,
+    "active": true,
+    "updated_at": "2026-02-09T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0469",
+    "name": "Nimbus Storage 469",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 73890.62,
+    "active": true,
+    "updated_at": "2025-11-06T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0470",
+    "name": "Orion Accessory 470",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 49307.11,
+    "active": true,
+    "updated_at": "2024-10-31T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0471",
+    "name": "Helix Storage 471",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 17544.5,
+    "active": true,
+    "updated_at": "2025-04-09T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0472",
+    "name": "Vertex Phone 472",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 70409.04,
+    "active": true,
+    "updated_at": "2024-01-19T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0473",
+    "name": "Aster Storage 473",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 22870.62,
+    "active": true,
+    "updated_at": "2024-12-20T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0474",
+    "name": "Nova Monitor 474",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 34624.34,
+    "active": true,
+    "updated_at": "2025-04-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0475",
+    "name": "Pioneer Storage 475",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 70150.21,
+    "active": true,
+    "updated_at": "2025-07-22T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0476",
+    "name": "Nimbus Accessory 476",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 60752.96,
+    "active": true,
+    "updated_at": "2026-03-13T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0477",
+    "name": "Pioneer Networking 477",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 22508.68,
+    "active": true,
+    "updated_at": "2026-01-03T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0478",
+    "name": "Nimbus Monitor 478",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 13204.83,
+    "active": true,
+    "updated_at": "2024-10-19T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0479",
+    "name": "Nimbus Tablet 479",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 19850.86,
+    "active": true,
+    "updated_at": "2025-04-22T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0480",
+    "name": "Nova Laptop 480",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 1541.62,
+    "active": true,
+    "updated_at": "2024-03-12T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0481",
+    "name": "Zenith Phone 481",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 68492.54,
+    "active": true,
+    "updated_at": "2026-03-23T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0482",
+    "name": "Orion Phone 482",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 83168.6,
+    "active": true,
+    "updated_at": "2025-08-06T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0483",
+    "name": "Vertex Monitor 483",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 24525.38,
+    "active": true,
+    "updated_at": "2026-03-25T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0484",
+    "name": "Vertex Monitor 484",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 1559.64,
+    "active": true,
+    "updated_at": "2024-09-18T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0485",
+    "name": "Pioneer Networking 485",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 75627.95,
+    "active": true,
+    "updated_at": "2024-12-14T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0486",
+    "name": "Aster Accessory 486",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 31187.76,
+    "active": true,
+    "updated_at": "2025-05-20T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0487",
+    "name": "Aster Phone 487",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 6517.4,
+    "active": true,
+    "updated_at": "2024-11-22T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0488",
+    "name": "Nimbus Monitor 488",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 13438.64,
+    "active": true,
+    "updated_at": "2024-09-18T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0489",
+    "name": "Orion Phone 489",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 60995.07,
+    "active": true,
+    "updated_at": "2025-10-11T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0490",
+    "name": "Orion Audio 490",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 313.35,
+    "active": true,
+    "updated_at": "2024-12-27T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0491",
+    "name": "Vertex Audio 491",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 65212.83,
+    "active": true,
+    "updated_at": "2024-08-18T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0492",
+    "name": "Zenith Audio 492",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 24199.17,
+    "active": true,
+    "updated_at": "2025-08-23T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0493",
+    "name": "Vertex Audio 493",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 41839.45,
+    "active": true,
+    "updated_at": "2025-09-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0494",
+    "name": "Pioneer Laptop 494",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 25004.83,
+    "active": true,
+    "updated_at": "2025-07-14T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0495",
+    "name": "Nova Tablet 495",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 12972.89,
+    "active": true,
+    "updated_at": "2025-03-12T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0496",
+    "name": "Helix Networking 496",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 69659.88,
+    "active": true,
+    "updated_at": "2024-06-05T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0497",
+    "name": "Vertex Storage 497",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 22584.98,
+    "active": true,
+    "updated_at": "2025-11-26T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0498",
+    "name": "Zenith Laptop 498",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 54969.78,
+    "active": true,
+    "updated_at": "2024-07-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0499",
+    "name": "Helix Monitor 499",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 26623.46,
+    "active": true,
+    "updated_at": "2025-11-28T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0500",
+    "name": "Nimbus Storage 500",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 87197.81,
+    "active": true,
+    "updated_at": "2025-07-07T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0501",
+    "name": "Nova Audio 501",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 27209.3,
+    "active": true,
+    "updated_at": "2025-12-15T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0502",
+    "name": "Helix Storage 502",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 46377.67,
+    "active": true,
+    "updated_at": "2025-05-16T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0503",
+    "name": "Orion Monitor 503",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 75773.98,
+    "active": true,
+    "updated_at": "2024-10-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0504",
+    "name": "Pioneer Laptop 504",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 34959.35,
+    "active": true,
+    "updated_at": "2024-08-26T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0505",
+    "name": "Orion Networking 505",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 75769.51,
+    "active": true,
+    "updated_at": "2024-12-31T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0506",
+    "name": "Helix Accessory 506",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 24400.44,
+    "active": true,
+    "updated_at": "2024-07-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0507",
+    "name": "Vertex Phone 507",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 4522.67,
+    "active": true,
+    "updated_at": "2024-10-29T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0508",
+    "name": "Helix Networking 508",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 68755.98,
+    "active": true,
+    "updated_at": "2025-10-19T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0509",
+    "name": "Zenith Laptop 509",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 50305.42,
+    "active": true,
+    "updated_at": "2024-09-28T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0510",
+    "name": "Pioneer Storage 510",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 46042.76,
+    "active": true,
+    "updated_at": "2024-02-02T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0511",
+    "name": "Helix Storage 511",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 26439.68,
+    "active": true,
+    "updated_at": "2025-05-29T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0512",
+    "name": "Pioneer Accessory 512",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 12289.86,
+    "active": true,
+    "updated_at": "2024-05-18T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0513",
+    "name": "Helix Networking 513",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 41712.71,
+    "active": true,
+    "updated_at": "2025-12-20T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0514",
+    "name": "Aster Accessory 514",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 7938.72,
+    "active": true,
+    "updated_at": "2025-01-07T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0515",
+    "name": "Orion Accessory 515",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 27518.63,
+    "active": true,
+    "updated_at": "2024-11-28T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0516",
+    "name": "Nimbus Networking 516",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 81141.87,
+    "active": true,
+    "updated_at": "2026-03-03T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0517",
+    "name": "Nova Accessory 517",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 25482.11,
+    "active": true,
+    "updated_at": "2025-03-31T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0518",
+    "name": "Zenith Laptop 518",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 6997.51,
+    "active": true,
+    "updated_at": "2025-12-22T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0519",
+    "name": "Vertex Monitor 519",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 1391.51,
+    "active": true,
+    "updated_at": "2024-06-22T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0520",
+    "name": "Helix Storage 520",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 36817.16,
+    "active": true,
+    "updated_at": "2026-04-30T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0521",
+    "name": "Helix Networking 521",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 17219.94,
+    "active": true,
+    "updated_at": "2024-03-11T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0522",
+    "name": "Nimbus Audio 522",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 26730.04,
+    "active": true,
+    "updated_at": "2025-06-09T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0523",
+    "name": "Vertex Storage 523",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 8062.51,
+    "active": true,
+    "updated_at": "2024-03-02T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0524",
+    "name": "Zenith Storage 524",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 71131.29,
+    "active": true,
+    "updated_at": "2025-12-25T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0525",
+    "name": "Nova Monitor 525",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 36457.69,
+    "active": true,
+    "updated_at": "2025-09-15T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0526",
+    "name": "Helix Tablet 526",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 80613.9,
+    "active": true,
+    "updated_at": "2024-12-28T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0527",
+    "name": "Nova Phone 527",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 17959.87,
+    "active": true,
+    "updated_at": "2026-04-24T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0528",
+    "name": "Pioneer Audio 528",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 14904.9,
+    "active": true,
+    "updated_at": "2025-11-20T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0529",
+    "name": "Orion Laptop 529",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 25907.16,
+    "active": true,
+    "updated_at": "2024-08-29T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0530",
+    "name": "Nimbus Monitor 530",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 53140.34,
+    "active": true,
+    "updated_at": "2026-01-27T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0531",
+    "name": "Orion Accessory 531",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 2012.42,
+    "active": true,
+    "updated_at": "2024-11-28T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0532",
+    "name": "Vertex Laptop 532",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 60399.77,
+    "active": true,
+    "updated_at": "2024-06-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0533",
+    "name": "Vertex Monitor 533",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 70215.57,
+    "active": true,
+    "updated_at": "2026-03-11T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0534",
+    "name": "Pioneer Accessory 534",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 24173.5,
+    "active": true,
+    "updated_at": "2024-08-15T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0535",
+    "name": "Pioneer Tablet 535",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 24657.56,
+    "active": false,
+    "updated_at": "2024-01-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0536",
+    "name": "Aster Phone 536",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 24732.77,
+    "active": true,
+    "updated_at": "2026-02-23T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0537",
+    "name": "Vertex Accessory 537",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 62239.19,
+    "active": true,
+    "updated_at": "2025-08-13T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0538",
+    "name": "Nimbus Audio 538",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 22596.59,
+    "active": false,
+    "updated_at": "2024-11-06T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0539",
+    "name": "Nova Networking 539",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 45657.27,
+    "active": true,
+    "updated_at": "2025-08-26T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0540",
+    "name": "Zenith Accessory 540",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 29453.09,
+    "active": true,
+    "updated_at": "2025-12-02T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0541",
+    "name": "Helix Monitor 541",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 71856.99,
+    "active": true,
+    "updated_at": "2024-02-02T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0542",
+    "name": "Nova Laptop 542",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 71516.82,
+    "active": true,
+    "updated_at": "2026-02-26T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0543",
+    "name": "Zenith Networking 543",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 54041.44,
+    "active": true,
+    "updated_at": "2024-09-16T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0544",
+    "name": "Pioneer Accessory 544",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 87720.53,
+    "active": true,
+    "updated_at": "2025-03-23T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0545",
+    "name": "Zenith Monitor 545",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 38240.67,
+    "active": true,
+    "updated_at": "2024-10-06T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0546",
+    "name": "Nimbus Storage 546",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 52181.25,
+    "active": true,
+    "updated_at": "2024-05-18T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0547",
+    "name": "Nimbus Laptop 547",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 64728.88,
+    "active": true,
+    "updated_at": "2025-05-02T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0548",
+    "name": "Zenith Storage 548",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 69028.89,
+    "active": true,
+    "updated_at": "2025-11-08T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0549",
+    "name": "Aster Accessory 549",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 15850.97,
+    "active": true,
+    "updated_at": "2025-12-19T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0550",
+    "name": "Pioneer Tablet 550",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 7942.45,
+    "active": true,
+    "updated_at": "2025-06-26T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0551",
+    "name": "Zenith Networking 551",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 64688.53,
+    "active": true,
+    "updated_at": "2025-04-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0552",
+    "name": "Nimbus Accessory 552",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 75126.27,
+    "active": true,
+    "updated_at": "2025-08-20T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0553",
+    "name": "Helix Monitor 553",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 38028.11,
+    "active": true,
+    "updated_at": "2026-03-27T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0554",
+    "name": "Nimbus Laptop 554",
+    "category": {
+      "name": "Laptop",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 23262.98,
+    "active": true,
+    "updated_at": "2024-01-15T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0555",
+    "name": "Vertex Storage 555",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 45218.61,
+    "active": true,
+    "updated_at": "2024-03-13T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0556",
+    "name": "Zenith Monitor 556",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 37186.1,
+    "active": true,
+    "updated_at": "2025-09-11T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0557",
+    "name": "Helix Monitor 557",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 59971.17,
+    "active": true,
+    "updated_at": "2026-01-20T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0558",
+    "name": "Aster Accessory 558",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 80226.91,
+    "active": true,
+    "updated_at": "2024-06-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0559",
+    "name": "Helix Monitor 559",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 89584.77,
+    "active": true,
+    "updated_at": "2025-11-11T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0560",
+    "name": "Nova Phone 560",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 64116.71,
+    "active": true,
+    "updated_at": "2024-09-26T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0561",
+    "name": "Helix Audio 561",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 47762.89,
+    "active": true,
+    "updated_at": "2026-01-29T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0562",
+    "name": "Vertex Audio 562",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 86620.67,
+    "active": true,
+    "updated_at": "2025-07-31T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0563",
+    "name": "Vertex Networking 563",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 36257.18,
+    "active": true,
+    "updated_at": "2024-05-15T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0564",
+    "name": "Vertex Tablet 564",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 43610.08,
+    "active": false,
+    "updated_at": "2025-05-25T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0565",
+    "name": "Aster Audio 565",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 36518.88,
+    "active": true,
+    "updated_at": "2024-07-06T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0566",
+    "name": "Aster Phone 566",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 84025.91,
+    "active": true,
+    "updated_at": "2025-10-09T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0567",
+    "name": "Vertex Accessory 567",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 59224.87,
+    "active": true,
+    "updated_at": "2024-08-08T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0568",
+    "name": "Nova Storage 568",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 66254.14,
+    "active": true,
+    "updated_at": "2024-02-22T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0569",
+    "name": "Pioneer Networking 569",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 86391.06,
+    "active": true,
+    "updated_at": "2024-11-12T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0570",
+    "name": "Orion Phone 570",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 10644.84,
+    "active": true,
+    "updated_at": "2024-09-21T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0571",
+    "name": "Orion Storage 571",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 43789.31,
+    "active": true,
+    "updated_at": "2024-03-13T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0572",
+    "name": "Pioneer Phone 572",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 64547.3,
+    "active": true,
+    "updated_at": "2024-08-09T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0573",
+    "name": "Nimbus Networking 573",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 77140.47,
+    "active": true,
+    "updated_at": "2024-07-24T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0574",
+    "name": "Nimbus Phone 574",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 11045.09,
+    "active": true,
+    "updated_at": "2025-08-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0575",
+    "name": "Helix Tablet 575",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 78065.9,
+    "active": true,
+    "updated_at": "2025-06-14T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0576",
+    "name": "Aster Monitor 576",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 33507.12,
+    "active": true,
+    "updated_at": "2026-03-17T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0577",
+    "name": "Aster Phone 577",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 72530.89,
+    "active": true,
+    "updated_at": "2025-10-28T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0578",
+    "name": "Helix Audio 578",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 33153.37,
+    "active": true,
+    "updated_at": "2025-03-22T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0579",
+    "name": "Nimbus Tablet 579",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Nimbus",
+    "unit_price": 72156.07,
+    "active": true,
+    "updated_at": "2026-03-31T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0580",
+    "name": "Nimbus Audio 580",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Nimbus",
+    "unit_price": 33069.6,
+    "active": true,
+    "updated_at": "2024-10-14T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0581",
+    "name": "Vertex Networking 581",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 36668.46,
+    "active": true,
+    "updated_at": "2024-08-22T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0582",
+    "name": "Helix Accessory 582",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Helix",
+    "unit_price": 5208.96,
+    "active": true,
+    "updated_at": "2024-11-20T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0583",
+    "name": "Helix Storage 583",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Helix",
+    "unit_price": 52334.83,
+    "active": true,
+    "updated_at": "2024-02-27T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0584",
+    "name": "Vertex Tablet 584",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Vertex",
+    "unit_price": 261.24,
+    "active": true,
+    "updated_at": "2025-10-23T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0585",
+    "name": "Aster Audio 585",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 34256.75,
+    "active": true,
+    "updated_at": "2024-05-29T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0586",
+    "name": "Orion Storage 586",
+    "category": {
+      "name": "Storage",
+      "department": "Computing"
+    },
+    "brand": "Orion",
+    "unit_price": 26674.34,
+    "active": true,
+    "updated_at": "2025-07-11T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0587",
+    "name": "Vertex Audio 587",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 14222.88,
+    "active": false,
+    "updated_at": "2024-04-25T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0588",
+    "name": "Aster Accessory 588",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 73940.35,
+    "active": true,
+    "updated_at": "2025-08-02T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0589",
+    "name": "Pioneer Phone 589",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 60875.53,
+    "active": true,
+    "updated_at": "2025-08-23T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0590",
+    "name": "Aster Accessory 590",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Aster",
+    "unit_price": 4109.75,
+    "active": true,
+    "updated_at": "2024-06-10T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0591",
+    "name": "Zenith Networking 591",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Zenith",
+    "unit_price": 27119.07,
+    "active": true,
+    "updated_at": "2026-01-15T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0592",
+    "name": "Vertex Phone 592",
+    "category": {
+      "name": "Phone",
+      "department": "Devices"
+    },
+    "brand": "Vertex",
+    "unit_price": 57275.51,
+    "active": true,
+    "updated_at": "2025-09-30T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0593",
+    "name": "Zenith Accessory 593",
+    "category": {
+      "name": "Accessory",
+      "department": "Devices"
+    },
+    "brand": "Zenith",
+    "unit_price": 18364.72,
+    "active": true,
+    "updated_at": "2025-10-04T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0594",
+    "name": "Nova Audio 594",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Nova",
+    "unit_price": 7447.38,
+    "active": true,
+    "updated_at": "2025-11-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0595",
+    "name": "Orion Monitor 595",
+    "category": {
+      "name": "Monitor",
+      "department": "Devices"
+    },
+    "brand": "Orion",
+    "unit_price": 38494.77,
+    "active": true,
+    "updated_at": "2024-07-07T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0596",
+    "name": "Aster Tablet 596",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 51767.48,
+    "active": true,
+    "updated_at": "2025-10-18T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0597",
+    "name": "Aster Networking 597",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Aster",
+    "unit_price": 82104.05,
+    "active": true,
+    "updated_at": "2025-08-13T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0598",
+    "name": "Pioneer Tablet 598",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 23002.59,
+    "active": false,
+    "updated_at": "2025-08-11T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0599",
+    "name": "Pioneer Networking 599",
+    "category": {
+      "name": "Networking",
+      "department": "Computing"
+    },
+    "brand": "Pioneer",
+    "unit_price": 34008.44,
+    "active": true,
+    "updated_at": "2024-12-14T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0600",
+    "name": "Pioneer Audio 600",
+    "category": {
+      "name": "Audio",
+      "department": "Devices"
+    },
+    "brand": "Pioneer",
+    "unit_price": 41269.99,
+    "active": true,
+    "updated_at": "2025-01-08T00:00:00+00:00"
+  },
+  {
+    "product_id": "P0300",
+    "name": "Nova Tablet 300 Rev2",
+    "category": {
+      "name": "Tablet",
+      "department": "Computing"
+    },
+    "brand": "Nova",
+    "unit_price": 41816.96,
+    "active": true,
+    "updated_at": "2024-03-24T00:00:00+00:00"
+  }
+]

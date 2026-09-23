@@ -1,0 +1,6 @@
+storage_type,file_size_bytes,write_seconds,full_read_seconds,filtered_read_seconds,row_count,notes
+csv,14947456,1.1650,0.2603,0.2578,49897,Text; every read re-parses and re-infers types (timestamps stay strings unless parsed). No pushdown: filter = read everything then filter in pandas. filtered_rows=8355; median of 5
+jsonl,30240770,1.6590,0.6415,0.6503,49897,"One self-describing JSON object per line: column names repeated on every row, so most verbose; slowest to parse; append/stream friendly. No pushdown. filtered_rows=8355; median of 5"
+parquet,5254700,0.0728,0.0128,0.0165,49897,"Columnar + dictionary/RLE encoding + snappy; typed schema stored in file. Filter pushed into the reader (filters=), row-group statistics can skip data. filtered_rows=8355; median of 5"
+postgresql,15974400,0.4993,0.4936,0.0864,49897,"PostgreSQL 16.15 (Debian 16.15-1.pgdg13+2). Size = pg_total_relation_size (heap 14344192 + indexes 1589248 bytes), not a file. Write = COPY into an empty copy of the table. Reads = query + fetch over a local socket into pandas. Filter uses PK-only table (sequential scan). filtered_rows=8355; median of 5"
+postgresql_status_index,16678912,,,0.0935,49897,Experiment: same rows + B-tree index on status. filtered_rows=8355; see postgres_explain.txt for the chosen plan; median of 5

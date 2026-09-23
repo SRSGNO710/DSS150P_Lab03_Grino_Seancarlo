@@ -1,0 +1,28 @@
+# Secrets / local environment
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated pipeline outputs (reproducible from data/source + code)
+data/raw/*
+data/staging/*
+data/curated/*
+data/quarantine/*
+data/benchmarks/*
+data/partitioned/*
+!data/*/.gitkeep
+
+# Airflow runtime state
+logs/
+airflow_logs/
+*.log
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
