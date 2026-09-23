@@ -1,4 +1,4 @@
-# Keep secrets and generated data out of the image. The container receives
+# Keep secrets and generated data out of the image. The container receives 
 # configuration through env_file/environment in docker-compose.yml instead.
 .env
 .git
