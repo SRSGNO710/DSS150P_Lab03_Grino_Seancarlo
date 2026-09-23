@@ -1,4 +1,4 @@
-Integrated technical acceptance test (lab section 11), clean state, 2026-09-22T17:32:07Z
+Integrated technical acceptance test (lab section 11), clean state, 2026-09-22T17:32:07Z 
 Environment: Ubuntu 24.04 sandbox, Python 3.11.15, PostgreSQL 16 server started locally
 Docker Hub was not reachable from this sandbox, so 'docker compose up -d postgres' was replaced by applying
 sql/init/*.sql with psql exactly as the postgres image entrypoint does (ON_ERROR_STOP, starting from db 'postgres').
