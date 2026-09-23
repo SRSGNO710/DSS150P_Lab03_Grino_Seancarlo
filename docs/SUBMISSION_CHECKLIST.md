@@ -1,4 +1,4 @@
-# Section 17: Final Submission Checklist Audit
+# Section 17: Final Submission Checklist Audit 
 
 Status key: **✅ Done and verified**, **🟡 Done, re-run on your machine** (verified in the sandbox; the lab expects your own output), **🔴 Your action needed** (cannot be produced without Docker Desktop or the Airflow UI).
 
