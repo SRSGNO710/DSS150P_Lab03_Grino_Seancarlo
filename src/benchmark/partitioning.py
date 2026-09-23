@@ -1,4 +1,4 @@
-"""
+""" 
 Partitioned Parquet: data/partitioned/order_year=YYYY/order_month=M/*.parquet
 
 Format materialization only — the rows are the curated rows unchanged, plus two
