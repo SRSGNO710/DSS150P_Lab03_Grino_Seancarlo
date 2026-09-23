@@ -1,7 +1,7 @@
 # Non-secret defaults for the DSS150P pipeline. Committed to Git.
 # Environment-specific values and secrets (host, port, user, password) live in
 # .env and are merged in by src/config.py — the only module that reads either file. 
-
+ 
 paths:                       # relative to the project root
   source_dir: data/source
   raw_dir: data/raw
