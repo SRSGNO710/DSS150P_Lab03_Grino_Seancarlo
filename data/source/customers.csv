@@ -1,4 +1,4 @@
-customer_id,first_name,last_name,email,city,customer_tier,created_at,updated_at
+customer_id,first_name,last_name,email,city,customer_tier,created_at,updated_at  
 C00001,Diego,Garcia,diego.garcia1@example.com,Caloocan,Bronze,2023-07-11T00:00:00+00:00,2025-09-03T07:11:00+00:00
 C00002,Kevin,Bautista,kevin.bautista2@example.com,Caloocan,Silver,2023-09-03T00:00:00+00:00,2024-08-01T21:34:00+00:00
 C00003,Paolo,Pascual,paolo.pascual3@example.com,Marikina,Gold,2023-07-07T00:00:00+00:00,2025-10-22T04:29:00+00:00
