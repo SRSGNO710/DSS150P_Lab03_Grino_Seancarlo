@@ -1,4 +1,4 @@
--- PostgreSQL 16.13 (Ubuntu 16.13-0ubuntu0.24.04.1)
+-- PostgreSQL 16.13 (Ubuntu 16.13-0ubuntu0.24.04.1) 
 -- curated.sales_order_lines (primary key on order_id only)
 Seq Scan on sales_order_lines  (cost=0.00..2374.71 rows=8399 width=231) (actual time=0.012..5.829 rows=8355 loops=1)
   Filter: (status = 'DELIVERED'::text)
