@@ -1,0 +1,59 @@
+# Non-secret defaults for the DSS150P pipeline. Committed to Git.
+# Environment-specific values and secrets (host, port, user, password) live in
+# .env and are merged in by src/config.py — the only module that reads either file.
+
+paths:                       # relative to the project root
+  source_dir: data/source
+  raw_dir: data/raw
+  staging_dir: data/staging
+  curated_dir: data/curated
+  quarantine_dir: data/quarantine
+  benchmark_dir: data/benchmarks
+  partitioned_dir: data/partitioned
+
+source_files:
+  customers: customers.csv
+  products: products.json
+  orders: orders.csv
+
+staging:
+  orders:
+    allowed_statuses: [PENDING, PAID, PACKED, SHIPPED, DELIVERED, CANCELLED]
+    quantity_min: 1
+    quantity_max: 20
+    discount_pct_min: 0.0
+    discount_pct_max: 1.0
+
+curated:
+  table: curated.sales_order_lines
+  conflict_key: order_id
+  # Business content hashed into record_hash. NOT listed on purpose:
+  #   pipeline_run_id, processed_at_utc, staged_at_utc -> change on every run
+  #   source_updated_at -> metadata; a source "touch" with identical content
+  #                        should not force an UPDATE
+  #   record_hash       -> cannot hash itself
+  hash_columns:
+    - order_id
+    - customer_id
+    - product_id
+    - order_timestamp
+    - customer_city
+    - customer_tier
+    - product_name
+    - category
+    - brand
+    - quantity
+    - unit_price
+    - discount_pct
+    - gross_amount
+    - discount_amount
+    - net_amount
+    - status
+
+benchmark:
+  repeats: 5
+  filter_status: DELIVERED
+
+postgres:
+  connect_timeout_seconds: 10
+  load_page_size: 1000
