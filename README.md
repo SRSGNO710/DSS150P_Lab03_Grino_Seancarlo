@@ -133,7 +133,7 @@ docker exec -it dss150p-postgres psql -U dss150p -d dss150p -c "SELECT * FROM au
 
 Partitions use the **UTC** month of `order_timestamp` (2026-01 has 2,506 rows).
 
-## Goal 4: Airflow runbook
+## Goal 4: Airflow runbook 
 
 ```bash
 mkdir -p airflow_logs logs
