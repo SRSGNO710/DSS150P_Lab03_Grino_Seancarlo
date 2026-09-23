@@ -1,4 +1,4 @@
-"""
+""" 
 Staging layer: typing, normalization, source-level deduplication and
 record-level validity checks. One source at a time — no cross-source joins
 (that is curated's job) and no Airflow code.
