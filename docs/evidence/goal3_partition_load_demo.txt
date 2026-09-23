@@ -1,4 +1,4 @@
-Goal 3 Task D - selected-partition load demonstrated on an EMPTY served table (sandbox, 2026-09-22T17:33:15Z)
+Goal 3 Task D - selected-partition load demonstrated on an EMPTY served table (sandbox, 2026-09-22T17:33:15Z) 
 The integrated run loads the full table first, so load-partition there reports 0 inserted / 2506 unchanged.
 To make the partition load itself visible, the served table is emptied first (demo only), then reloaded in full at the end.
 
