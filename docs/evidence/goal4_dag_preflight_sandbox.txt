@@ -1,4 +1,4 @@
-Goal 4 PRE-FLIGHT CHECK of dags/dss150p_pipeline.py (sandbox, 2026-09-22T17:33:34Z)
+Goal 4 PRE-FLIGHT CHECK of dags/dss150p_pipeline.py (sandbox, 2026-09-22T17:33:34Z) 
 ==================================================================================
 NOT Airflow evidence. Apache Airflow could not be installed in this sandbox (no PyPI / Docker Hub access).
 A small test double imported the real DAG file, rendered each BashOperator command with Jinja exactly as
