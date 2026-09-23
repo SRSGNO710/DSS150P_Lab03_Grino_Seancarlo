@@ -1,4 +1,4 @@
-# Goal 1: PostgreSQL + the containerized pipeline.
+# Goal 1: PostgreSQL + the containerized pipeline. 
 #   docker compose build pipeline
 #   docker compose up -d postgres
 #   docker compose run --rm pipeline python -m src.cli validate-env
