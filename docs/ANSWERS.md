@@ -1,4 +1,4 @@
-# DSS150P Lab 3: Written Answers
+# DSS150P Lab 3: Written Answers 
 
 Every numeric claim below comes from a run of this repository. The file
 evidence is in `docs/evidence/`. Benchmark timings were measured in the
@@ -61,7 +61,7 @@ does not flip because a column was read back as `int64` instead of `float64`.
 | **Examples here** | `quantity = 0` (O0000112), status `UNKNOWN` (O0004445), negative catalog price (P0078), orphan `C99999` / `P9999` | `orders.csv` missing, PostgreSQL unreachable, bad password, unreadable Parquet, a broken output contract in `validate` |
 | **Handling** | Route the row to `data/quarantine/*.csv` with a `quarantine_reason`. The run continues and the counts reconcile (49,897 curated + 101 quarantined = 49,998 staged). | Raise a `StageError` that names the stage and keeps the root cause (`raise … from err`). The CLI exits 1, and Airflow retries the task and then calls the failure callback. |
 | **Who fixes it** | The data owner or source system. Records can be reprocessed later. | The engineer or operator (infrastructure, config, code). |
-| **Retrying helps?** | No. The same record fails the same way every time. | Often yes: a transient outage or a lock. |
+| **Retrying helps?** | No. The same record just fails the same way every time. | Often yes: a transient outage or a lock. |
 
 Mixing them up is harmful in both directions. Throwing on every bad row means
 one typo stops the whole load. Swallowing system errors (`except: pass`) means
