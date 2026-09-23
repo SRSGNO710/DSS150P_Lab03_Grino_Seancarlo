@@ -1,6 +1,6 @@
 """
 The single place that turns configuration into usable settings.
-
+ 
 * config/settings.yml  -> non-secret defaults (committed)
 * .env / real env vars -> environment-specific values and secrets (never committed)
 
