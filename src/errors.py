@@ -1,6 +1,6 @@
 """
 Exceptions and logging shared by every stage.
-
+ 
 Rule used across the project:
 * A *data-quality* problem in a record (bad quantity, unknown status, orphan key)
   is NOT an exception. The record goes to data/quarantine/ with a reason and the
