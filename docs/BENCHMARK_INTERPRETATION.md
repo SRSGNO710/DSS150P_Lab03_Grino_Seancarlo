@@ -1,4 +1,4 @@
-# Goal 3: Storage Benchmark Interpretation
+# Goal 3: Storage Benchmark Interpretation 
 
 **Dataset.** The curated `sales_order_lines`: 49,897 rows × 20 columns, the same logical row set in every representation (the benchmark raises an error if the CSV, JSONL and Parquet `order_id` sets differ).
 **Command.** `python -m src.cli benchmark --repeats 5`
