@@ -1,4 +1,4 @@
-"""
+""" 
 Thin command-line entry point. Each command parses arguments, calls exactly one
 module function, and prints a JSON summary. No transformation logic lives here.
 
