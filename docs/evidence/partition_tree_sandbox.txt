@@ -1,4 +1,4 @@
-data/partitioned/
+data/partitioned/ 
   order_year=2025/
     order_month=1/  (1 file, 328,375 bytes)
     order_month=2/  (1 file, 301,085 bytes)
