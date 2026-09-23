@@ -1,4 +1,4 @@
-layer,column_name,data_type,nullable,description,source_field,transformation_rule
+layer,column_name,data_type,nullable,description,source_field,transformation_rule 
 raw,(all files),bytes,n/a,"Byte-identical copies of customers.csv, products.json, orders.csv in data/raw/run_id=<id>/ plus _manifest.json (bytes, sha256, physical_records)",data/source/*,shutil.copy2; SHA-256 of copy must equal source
 staging.customers,customer_id,text,no,Customer business key,customers.customer_id,trimmed; rows with blank key quarantined; one row per key (latest updated_at; tie -> later source row)
 staging.customers,first_name,text,yes,First name,customers.first_name,trimmed; blank -> null
