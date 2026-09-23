@@ -1,4 +1,4 @@
-"""DAG checks. Skipped where Airflow is not installed; run inside the Airflow image:
+"""DAG checks. Skipped where Airflow is not installed; run inside the Airflow image: 
 docker compose -f docker-compose.yml -f docker-compose.airflow.yml run --rm airflow-scheduler \
     bash -c "pip install -q pytest && cd /opt/airflow/project && python -m pytest -q tests/test_dag.py"
 """
