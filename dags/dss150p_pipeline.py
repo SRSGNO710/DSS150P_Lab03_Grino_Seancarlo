@@ -1,6 +1,6 @@
 """
 DSS150P sales pipeline DAG — orchestration only.
-
+ 
 Every task is a one-line call into the project CLI (python -m src.cli ...);
 all extraction/transformation/loading/validation rules live in src/. This file
 only declares ORDER, SCHEDULE, PARAMETERS, RETRIES, TIMEOUTS and FAILURE HANDLING.
