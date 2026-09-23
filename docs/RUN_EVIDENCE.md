@@ -1,5 +1,5 @@
 # Run Evidence
-
+ 
 Values below were captured by running this repository in a verification
 sandbox: Ubuntu 24.04, Python 3.11.15, a local PostgreSQL 16.13 server. Raw
 output is in `docs/evidence/`. Items marked **▶ CAPTURE** must be produced on
