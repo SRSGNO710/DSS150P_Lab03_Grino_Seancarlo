@@ -1,4 +1,4 @@
-"""
+""" 
 Raw layer: copy immutable source snapshots into data/raw/run_id=<run_id>/.
 
 Only copies bytes and records a manifest (size, SHA-256, physical line/record
