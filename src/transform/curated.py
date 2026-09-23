@@ -1,4 +1,4 @@
-"""
+""" 
 Curated layer: cross-source joins, business calculations, consumer-shaped
 `sales_order_lines`, and audit columns.
 
